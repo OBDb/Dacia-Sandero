@@ -1,15 +1,43 @@
+references:
+  - "https://en.wikipedia.org/wiki/Dacia_Sandero"
+
 generations:
   - name: "First Generation"
-    start_year: 2007
+    start_year: 2008
+    end_year: 2011
+    description: "The original Dacia Sandero was a budget-friendly supermini built on the Renault-Nissan B0 platform shared with the first-generation Dacia Logan. Featuring simple, functional styling and a basic hatchback layout, it prioritized affordability and practicality over design flair. Engine options typically included 1.2L to 1.6L petrol units and a 1.5L dCi diesel, all focused on reliability and economy rather than performance. The interior was spartan but durable, with minimal technology features and simple, hard-wearing materials. Despite its no-frills approach, the Sandero offered good interior space for its class and reasonable build quality for its price point. Revealed at the 2007 Frankfurt Motor Show and debuting in Brazil in December 2007, it was formally launched in Europe at the 2008 Geneva Motor Show. This generation established the Sandero as Dacia's entry-level hatchback, appealing to value-conscious buyers across Europe and developing markets."
+
+  - name: "First Generation (2011 Facelift)"
+    start_year: 2011
     end_year: 2012
-    description: "The original Dacia Sandero was a budget-friendly supermini built on the Renault-Nissan B0 platform shared with the first-generation Dacia Logan. Featuring simple, functional styling and a basic hatchback layout, it prioritized affordability and practicality over design flair. Engine options typically included 1.2L to 1.6L petrol units and a 1.5L dCi diesel, all focused on reliability and economy rather than performance. The interior was spartan but durable, with minimal technology features and simple, hard-wearing materials. Despite its no-frills approach, the Sandero offered good interior space for its class and reasonable build quality for its price point. This generation established the Sandero as Dacia's entry-level hatchback, appealing to value-conscious buyers across Europe and developing markets."
+    description: "A facelifted version of the first-generation Sandero was launched in May 2011 in Brazil, and subsequently arrived in Colombia at the beginning of 2012. The facelift introduced a new front and rear design along with a revised interior. This revised version continued on the same B0 platform but brought visual and interior updates that refreshed the model's appearance while maintaining the value-oriented philosophy."
 
   - name: "Second Generation"
     start_year: 2012
+    end_year: 2016
+    description: "The second-generation Sandero was revealed at the 2012 Paris Motor Show in September 2012 and built on the updated Dacia M0 platform. It maintained the value-oriented approach but with improved design, quality, and features. Engine options evolved to include more efficient units, including a 0.9L TCe turbocharged three-cylinder. The interior saw significant improvements in design and material quality, with higher trims offering features previously unavailable including a touchscreen infotainment system. The Stepway variant, with its increased ride height, roof rails, and plastic body cladding, gained significant popularity, accounting for a large proportion of sales in many markets. This generation significantly increased the Sandero's appeal beyond purely budget-conscious buyers, becoming Europe's best-selling retail car model by the end of its production run."
+
+  - name: "Second Generation (2016 Facelift)"
+    start_year: 2016
+    end_year: 2019
+    description: "A revised Dacia Sandero was released in November 2016 at the 2016 Paris Motor Show. On the outside, the facelifted version featured LED daytime running lights and restyled taillights. Dacia also updated its engine range with a 1.0-litre, three-cylinder petrol engine that replaced the older 1.2-litre unit in entry-level trims. This facelift maintained the same platform and overall design philosophy while introducing modernized styling and powertrain improvements."
+
+  - name: "Second Generation (2019 Facelift)"
+    start_year: 2019
     end_year: 2020
-    description: "The second-generation Sandero maintained the value-oriented approach but with improved design, quality, and features. Built on an updated B0 platform, it featured more contemporary styling while preserving its practical, unpretentious character. Engine options evolved to include more efficient units, including a 0.9L TCe turbocharged three-cylinder. The interior saw significant improvements in design and material quality, with higher trims offering features previously unavailable including a touchscreen infotainment system. The Stepway variant, with its increased ride height (40mm), roof rails, and plastic body cladding, gained significant popularity, accounting for a large proportion of sales in many markets. A facelift in 2016 updated the front and rear styling and added LED daytime running lights. This generation significantly increased the Sandero's appeal beyond purely budget-conscious buyers, becoming Europe's best-selling retail car model by the end of its production run."
+    description: "Another facelift was announced in July 2019 for model year 2020, exclusive to the Renault-badged variant produced in Brazil. This upgrade brought a slightly revised front end and a significantly redesigned rear end, with rear tail lights extending to the tailgate. The facelift represented the final evolution of the second-generation platform before the transition to the all-new third generation."
 
   - name: "Third Generation"
     start_year: 2020
+    end_year: 2022
+    description: "The third generation of Dacia Sandero was launched on 29 September 2020, representing a major step forward with the switch to the Renault-Nissan-Mitsubishi Alliance's CMF-B LS platform. This change brings significant improvements in refinement, safety, and technology while maintaining competitive pricing. The exterior design is more modern and sophisticated, with LED lighting and improved proportions. Engine options include a 1.0L naturally aspirated SCe, a 1.0L turbocharged TCe, and a factory-fitted LPG bi-fuel system on some models. The interior features a completely redesigned dashboard with improved ergonomics, materials, and technology, including an available 8-inch touchscreen with wireless smartphone integration. Safety features have been dramatically enhanced with standard automated emergency braking and other advanced driver assistance systems. The popular Stepway variant continues with crossover-inspired styling elements and increased ground clearance. Despite these improvements, the third-generation Sandero remains one of the most affordable new cars in Europe."
+
+  - name: "Third Generation (2022 Refresh)"
+    start_year: 2022
+    end_year: 2025
+    description: "In June 2022, the Sandero received a slight restyling incorporating Dacia's new logo alongside other models in the brand's lineup. To accommodate the new logo, the grille was redesigned and the steering wheel was slightly modified. This refresh maintained the same CMF-B LS platform and powertrain options while updating the visual identity to align with Dacia's contemporary design language."
+
+  - name: "Third Generation (2025 Refresh)"
+    start_year: 2025
     end_year: null
-    description: "The current Sandero represents a major step forward, switching to the Renault-Nissan-Mitsubishi Alliance's CMF-B platform shared with the Renault Clio. This change brings significant improvements in refinement, safety, and technology while maintaining competitive pricing. The exterior design is more modern and sophisticated, with LED lighting and improved proportions. Engine options include a 1.0L naturally aspirated SCe, a 1.0L turbocharged TCe, and a factory-fitted LPG bi-fuel system on some models. The interior features a completely redesigned dashboard with improved ergonomics, materials, and technology, including an available 8-inch touchscreen with wireless smartphone integration. Safety features have been dramatically enhanced with standard automated emergency braking and other advanced driver assistance systems. The popular Stepway variant continues with crossover-inspired styling elements and increased ground clearance. Despite these improvements, the third-generation Sandero remains one of the most affordable new cars in Europe, maintaining Dacia's value proposition while significantly reducing the compromises associated with budget vehicles."
+    description: "In October 2025, the Sandero received a heavy facelift featuring a redesigned front fascia, new headlights, new fog lights, and new alloy wheel designs. The rear design remained similar to the previous refresh. This update represents the latest visual evolution of the third-generation platform, continuing Dacia's commitment to providing affordable, practical transportation with contemporary styling."
