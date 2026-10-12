@@ -1,0 +1,5 @@
+command_id: 745.765.224109
+test_cases:
+- expected_values:
+    SANDERO_TP_FL_ALERT: NONE
+  response: '7650462410900'

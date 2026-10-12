@@ -1,0 +1,5 @@
+command_id: 745.765.2261B3
+test_cases:
+- expected_values:
+    SANDERO_RR_DOOR: 0
+  response: 765046261B300

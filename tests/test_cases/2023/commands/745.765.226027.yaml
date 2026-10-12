@@ -1,0 +1,5 @@
+command_id: 745.765.226027
+test_cases:
+- expected_values:
+    SANDERO_FR_DOOR: 0
+  response: '7650462602700'
