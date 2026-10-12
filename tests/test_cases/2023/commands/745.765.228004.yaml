@@ -1,0 +1,8 @@
+command_id: 745.765.228004
+test_cases:
+- expected_values:
+    SANDERO_LOCKED: 0
+  response: '7650462800400'
+- expected_values:
+    SANDERO_LOCKED: 1
+  response: '7650462800480'

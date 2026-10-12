@@ -1,0 +1,5 @@
+command_id: 745.765.22609B
+test_cases:
+- expected_values:
+    SANDERO_TAILGATE: 0
+  response: 7650462609B00
