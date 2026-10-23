@@ -1,0 +1,5 @@
+command_id: 743.763.220207|din=C0
+test_cases:
+- expected_values:
+    SANDERO_ODO_KM: 0
+  response: '7630762020700000000'

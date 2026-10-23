@@ -1,0 +1,14 @@
+command_id: DA15.15.2228DC
+test_cases:
+- expected_values:
+    SANDERO_ALTERNATOR_V_SET: 10.6
+  response: 18DAF115056228DC0424
+- expected_values:
+    SANDERO_ALTERNATOR_V_SET: 12.8
+  response: 18DAF115056228DC0500
+- expected_values:
+    SANDERO_ALTERNATOR_V_SET: 15.25
+  response: 18DAF115056228DC05F5
+- expected_values:
+    SANDERO_ALTERNATOR_V_SET: 15.8
+  response: 18DAF115056228DC062C

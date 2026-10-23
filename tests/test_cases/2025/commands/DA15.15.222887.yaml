@@ -1,0 +1,8 @@
+command_id: DA15.15.222887
+test_cases:
+- expected_values:
+    SANDERO_PWM_FUEL_PMP: 0
+  response: 18DAF115056228870000
+- expected_values:
+    SANDERO_PWM_FUEL_PMP: 100
+  response: 18DAF115056228872710

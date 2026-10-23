@@ -1,0 +1,11 @@
+command_id: DA15.15.2230DE
+test_cases:
+- expected_values:
+    SANDERO_ENG_OPERATION_TIME: 0
+  response: 18DAF115076230DE00000000
+- expected_values:
+    SANDERO_ENG_OPERATION_TIME: 0
+  response: 18DAF115076230DE00000AFA
+- expected_values:
+    SANDERO_ENG_OPERATION_TIME: 0
+  response: 18DAF115076230DE0000E718

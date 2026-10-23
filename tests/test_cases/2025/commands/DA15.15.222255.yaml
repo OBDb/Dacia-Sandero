@@ -1,0 +1,5 @@
+command_id: DA15.15.222255
+test_cases:
+- expected_values:
+    SANDERO_FILTERED_ANGULAR_POS: 0
+  response: 18DAF115056222550000

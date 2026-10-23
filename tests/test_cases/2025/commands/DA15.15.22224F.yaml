@@ -1,0 +1,5 @@
+command_id: DA15.15.22224F
+test_cases:
+- expected_values:
+    SANDERO_ANGULAR_POS_TGT_EXH: 0
+  response: 18DAF1150562224F0000

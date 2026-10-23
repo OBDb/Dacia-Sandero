@@ -1,0 +1,8 @@
+command_id: 745.765.2260C6
+test_cases:
+- expected_values:
+    SANDERO_IGN: 0
+  response: 765046260C600
+- expected_values:
+    SANDERO_IGN: 1
+  response: 765046260C680

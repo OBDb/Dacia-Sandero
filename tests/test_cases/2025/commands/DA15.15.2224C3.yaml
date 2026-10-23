@@ -1,0 +1,20 @@
+command_id: DA15.15.2224C3
+test_cases:
+- expected_values:
+    SANDERO_SLOW_ADAPTATIVE_TERM: -4.51286
+  response: 18DAF115056224C37472
+- expected_values:
+    SANDERO_SLOW_ADAPTATIVE_TERM: -4.50371
+  response: 18DAF115056224C37478
+- expected_values:
+    SANDERO_SLOW_ADAPTATIVE_TERM: -4.48387
+  response: 18DAF115056224C37485
+- expected_values:
+    SANDERO_SLOW_ADAPTATIVE_TERM: -4.31907
+  response: 18DAF115056224C374F1
+- expected_values:
+    SANDERO_SLOW_ADAPTATIVE_TERM: -4.21378
+  response: 18DAF115056224C37536
+- expected_values:
+    SANDERO_SLOW_ADAPTATIVE_TERM: -3.91013
+  response: 18DAF115056224C375FD

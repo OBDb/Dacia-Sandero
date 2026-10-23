@@ -1,0 +1,8 @@
+command_id: DA15.15.2228E1
+test_cases:
+- expected_values:
+    SANDERO_ALTERNATOR_LOAD_DA15: 3.13725
+  response: 18DAF115046228E108
+- expected_values:
+    SANDERO_ALTERNATOR_LOAD_DA15: 99.60784
+  response: 18DAF115046228E1FE

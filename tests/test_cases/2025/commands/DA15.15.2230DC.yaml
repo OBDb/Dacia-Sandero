@@ -1,0 +1,11 @@
+command_id: DA15.15.2230DC
+test_cases:
+- expected_values:
+    SANDERO_FUEL_CONS_SINCE_LAST: 0
+  response: 18DAF115076230DC00000000
+- expected_values:
+    SANDERO_FUEL_CONS_SINCE_LAST: 0.251
+  response: 18DAF115076230DC000000FB
+- expected_values:
+    SANDERO_FUEL_CONS_SINCE_LAST: 0.261
+  response: 18DAF115076230DC00000105

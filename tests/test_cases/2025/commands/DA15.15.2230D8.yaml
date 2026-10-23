@@ -1,0 +1,14 @@
+command_id: DA15.15.2230D8
+test_cases:
+- expected_values:
+    SANDERO_TOT_SUM_ENG_ON_TIME_H: 496.10222
+  response: 18DAF115076230D8001B4070
+- expected_values:
+    SANDERO_TOT_SUM_ENG_ON_TIME_H: 496.64
+  response: 18DAF115076230D8001B4800
+- expected_values:
+    SANDERO_TOT_SUM_ENG_ON_TIME_H: 504.46194
+  response: 18DAF115076230D8001BB5FF
+- expected_values:
+    SANDERO_TOT_SUM_ENG_ON_TIME_H: 504.535
+  response: 18DAF115076230D8001BB706

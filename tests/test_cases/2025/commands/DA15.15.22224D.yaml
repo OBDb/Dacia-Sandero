@@ -1,0 +1,5 @@
+command_id: DA15.15.22224D
+test_cases:
+- expected_values:
+    SANDERO_PWM_CTRL_APPLIED: 0
+  response: 18DAF1150562224D0000
