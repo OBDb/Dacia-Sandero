@@ -1,0 +1,8 @@
+command_id: 745.765.224186
+test_cases:
+- expected_values:
+    SANDERO_LOW_BEAM: 0
+  response: '7650462418600'
+- expected_values:
+    SANDERO_LOW_BEAM: 1
+  response: '7650462418680'

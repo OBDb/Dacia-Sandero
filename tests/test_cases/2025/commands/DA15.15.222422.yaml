@@ -1,0 +1,14 @@
+command_id: DA15.15.222422
+test_cases:
+- expected_values:
+    SANDERO_AMOUNT_AIR_PUMPED: 2.65
+  response: 18DAF115056224220035
+- expected_values:
+    SANDERO_AMOUNT_AIR_PUMPED: 13
+  response: 18DAF115056224220104
+- expected_values:
+    SANDERO_AMOUNT_AIR_PUMPED: 25.55
+  response: 18DAF1150562242201FF
+- expected_values:
+    SANDERO_AMOUNT_AIR_PUMPED: 92.6
+  response: 18DAF11505622422073C

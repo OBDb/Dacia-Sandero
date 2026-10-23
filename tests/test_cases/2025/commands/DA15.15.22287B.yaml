@@ -1,0 +1,5 @@
+command_id: DA15.15.22287B
+test_cases:
+- expected_values:
+    SANDERO_FINAL_ALCOHOL: 0
+  response: 18DAF1150562287B0000

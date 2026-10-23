@@ -1,0 +1,29 @@
+command_id: DA15.15.22287F
+test_cases:
+- expected_values:
+    SANDERO_MEMORIZED_VARIABLE: 33
+  response: 18DAF1150462287F21
+- expected_values:
+    SANDERO_MEMORIZED_VARIABLE: 34
+  response: 18DAF1150462287F22
+- expected_values:
+    SANDERO_MEMORIZED_VARIABLE: 35
+  response: 18DAF1150462287F23
+- expected_values:
+    SANDERO_MEMORIZED_VARIABLE: 37
+  response: 18DAF1150462287F25
+- expected_values:
+    SANDERO_MEMORIZED_VARIABLE: 38
+  response: 18DAF1150462287F26
+- expected_values:
+    SANDERO_MEMORIZED_VARIABLE: 48
+  response: 18DAF1150462287F30
+- expected_values:
+    SANDERO_MEMORIZED_VARIABLE: 49
+  response: 18DAF1150462287F31
+- expected_values:
+    SANDERO_MEMORIZED_VARIABLE: 51
+  response: 18DAF1150462287F33
+- expected_values:
+    SANDERO_MEMORIZED_VARIABLE: 52
+  response: 18DAF1150462287F34

@@ -1,0 +1,5 @@
+command_id: DA15.15.2225D4
+test_cases:
+- expected_values:
+    SANDERO_AIR_FLAP_SET_POINT: 80
+  response: 18DAF115046225D4CC

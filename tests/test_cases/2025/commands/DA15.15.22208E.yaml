@@ -1,0 +1,20 @@
+command_id: DA15.15.22208E
+test_cases:
+- expected_values:
+    SANDERO_CURRENT_GEAR_ENGAGED: -1
+  response: 18DAF1150462208E04
+- expected_values:
+    SANDERO_CURRENT_GEAR_ENGAGED: 0
+  response: 18DAF1150462208E05
+- expected_values:
+    SANDERO_CURRENT_GEAR_ENGAGED: 1
+  response: 18DAF1150462208E06
+- expected_values:
+    SANDERO_CURRENT_GEAR_ENGAGED: 2
+  response: 18DAF1150462208E07
+- expected_values:
+    SANDERO_CURRENT_GEAR_ENGAGED: 3
+  response: 18DAF1150462208E08
+- expected_values:
+    SANDERO_CURRENT_GEAR_ENGAGED: 4
+  response: 18DAF1150462208E09

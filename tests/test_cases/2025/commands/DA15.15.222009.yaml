@@ -1,0 +1,29 @@
+command_id: DA15.15.222009
+test_cases:
+- expected_values:
+    SANDERO_ATMOSPHERIC_P_DA15: 1017
+  response: 18DAF1150562200903F9
+- expected_values:
+    SANDERO_ATMOSPHERIC_P_DA15: 1018
+  response: 18DAF1150562200903FA
+- expected_values:
+    SANDERO_ATMOSPHERIC_P_DA15: 1019
+  response: 18DAF1150562200903FB
+- expected_values:
+    SANDERO_ATMOSPHERIC_P_DA15: 1020
+  response: 18DAF1150562200903FC
+- expected_values:
+    SANDERO_ATMOSPHERIC_P_DA15: 1021
+  response: 18DAF1150562200903FD
+- expected_values:
+    SANDERO_ATMOSPHERIC_P_DA15: 1024
+  response: 18DAF115056220090400
+- expected_values:
+    SANDERO_ATMOSPHERIC_P_DA15: 1025
+  response: 18DAF115056220090401
+- expected_values:
+    SANDERO_ATMOSPHERIC_P_DA15: 1026
+  response: 18DAF115056220090402
+- expected_values:
+    SANDERO_ATMOSPHERIC_P_DA15: 1028
+  response: 18DAF115056220090404

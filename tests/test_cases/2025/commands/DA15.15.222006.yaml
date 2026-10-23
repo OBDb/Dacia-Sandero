@@ -1,0 +1,11 @@
+command_id: DA15.15.222006
+test_cases:
+- expected_values:
+    SANDERO_TOT_VEH_DIST: 22096
+  response: 18DAF11506622006005650
+- expected_values:
+    SANDERO_TOT_VEH_DIST: 22648
+  response: 18DAF11506622006005878
+- expected_values:
+    SANDERO_TOT_VEH_DIST: 22653
+  response: 18DAF1150662200600587D

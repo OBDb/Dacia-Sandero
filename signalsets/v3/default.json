@@ -160,7 +160,7 @@
   "signals": [
     {"id": "SANDERO_TYRE_P_WARN_SYSTEM", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Tyre pressure warning system"}
   ]},
-{ "hdr": "743", "rax": "763", "din": "C0", "cmd": {"22": "0207"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "743", "rax": "763", "din": "C0", "cmd": {"22": "0207"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022], "from": 2026 },
   "signals": [
     {"id": "SANDERO_ODO_KM", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer in km"}
   ]},
@@ -209,7 +209,7 @@
     {"id": "SANDERO_REFRIGERANT_CIRCUIT_2", "path": "Engine", "fmt": {"bix": 32, "len": 4, "max": 15, "unit": "scalar" }, "name": "Refrigerant circuit 2-way solenoid valve"},
     {"id": "SANDERO_REFRIGERANT_CIRCUIT_3", "path": "Engine", "fmt": {"bix": 36, "len": 4, "max": 15, "unit": "scalar" }, "name": "Refrigerant circuit 3-way solenoid valve"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "4109"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "4109"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TP_FL_ALERT", "path": "Tires", "name": "Front left tire pressure alert", "fmt": {"len": 8, "map": {
           "0": { "description": "None",    "value": "NONE" },
@@ -223,7 +223,7 @@
         }}
     }
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "410A"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "410A"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TP_FR_ALERT", "path": "Tires", "name": "Front right tire pressure alert", "fmt": {"len": 8, "map": {
           "0": { "description": "None",    "value": "NONE" },
@@ -237,7 +237,7 @@
         }}
     }
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "410B"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "410B"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TP_RL_ALERT", "path": "Tires", "name": "Rear left tire pressure alert", "fmt": {"len": 8, "map": {
           "0": { "description": "None",    "value": "NONE" },
@@ -251,7 +251,7 @@
         }}
     }
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "410C"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "410C"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TP_RR_ALERT", "path": "Tires", "name": "Rear right tire pressure alert", "fmt": {"len": 8, "map": {
           "0": { "description": "None",    "value": "NONE" },
@@ -265,67 +265,67 @@
         }}
     }
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "4186"}, "freq": 3, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "4186"}, "freq": 3, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_LOW_BEAM", "path": "Lights", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Low beams on"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6026"}, "freq": 3, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "6026"}, "freq": 3, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_FL_DOOR", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Front left door open"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6027"}, "freq": 3, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "6027"}, "freq": 3, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_FR_DOOR", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Front right door open"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "609B"}, "freq": 3, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "609B"}, "freq": 3, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TAILGATE", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Tailgate open"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "60C6"}, "freq": 3, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "60C6"}, "freq": 3, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_IGN", "path": "Engine", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Ignition relay on"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "61B2"}, "freq": 3, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "61B2"}, "freq": 3, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_RL_DOOR", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Rear left door open"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "61B3"}, "freq": 3, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "61B3"}, "freq": 3, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_RR_DOOR", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Rear right door open"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6300"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "6300"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 767.25, "mul": 3, "div": 4, "nullmax": 767.25, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6301"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "6301"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 767.25, "mul": 3, "div": 4, "nullmax": 767.25, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6302"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "6302"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 767.25, "mul": 3, "div": 4, "nullmax": 767.25, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6303"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "6303"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 767.25, "mul": 3, "div": 4, "nullmax": 767.25, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6310"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "6310"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 97, "min": -30, "add": -30, "nullmax": 97, "unit": "celsius" }, "name": "Front left tire temperature", "suggestedMetric": "frontLeftTireTemperature"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6311"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "6311"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 97, "min": -30, "add": -30, "nullmax": 97, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6312"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "6312"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 97, "min": -30, "add": -30, "nullmax": 97, "unit": "celsius" }, "name": "Rear left tire temperature", "suggestedMetric": "rearLeftTireTemperature"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6313"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "6313"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 97, "min": -30, "add": -30, "nullmax": 97, "unit": "celsius" }, "name": "Rear right tire temperature", "suggestedMetric": "rearRightTireTemperature"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "8004"}, "freq": 3, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "745", "rax": "765", "cmd": {"22": "8004"}, "freq": 3, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_LOCKED", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Vehicle locked"}
   ]},
@@ -411,7 +411,7 @@
   "signals": [
     {"id": "SANDERO_GEARBOX_TYPE", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gearbox type"}
   ]},
-{ "hdr": "74D", "rax": "76D", "cmd": {"22": "6079"}, "freq": 10, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "74D", "rax": "76D", "cmd": {"22": "6079"}, "freq": 10, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "SANDERO_12V_A", "path": "Electrical", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "amps" }, "name": "12V battery current"}
   ]},
@@ -1285,115 +1285,115 @@
   "signals": [
     {"id": "SANDERO_COOLANT_T_SNS_V", "path": "Engine", "fmt": { "len": 16, "max": 15.9997, "div": 4096, "unit": "volts" }, "name": "Coolant temperature sensor voltage"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "2006"}, "freq": 30,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "2006"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_TOT_VEH_DIST", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Total vehicle distance"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "2009"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "2009"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_ATMOSPHERIC_P_DA15", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Atmospheric pressure"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "208E"}, "freq": 0.25,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "208E"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_CURRENT_GEAR_ENGAGED", "path": "Transmission", "fmt": { "len": 8, "max": 250, "min": -5, "add": -5, "unit": "scalar" }, "name": "Current gear engaged"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "20C4"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "20C4"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_RAW_BOOST_P_SENS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Raw boost pressure from sensor"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "20DE"}, "freq": 5,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "20DE"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_AAT_DA15", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "224D"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "224D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_PWM_CTRL_APPLIED", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "percent" }, "name": "Control applied to the driver of the exhaust VVTC solenoid valve, PWM"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "224E"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "224E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_ANGULAR_POS_EXH_VVTC", "path": "Engine", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "scalar" }, "name": "Angular position of the exhaust VVTC system"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "224F"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "224F"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_ANGULAR_POS_TGT_EXH", "path": "Engine", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "scalar" }, "name": "Angular position target of the exhaust VVTC system"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "2255"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "2255"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_FILTERED_ANGULAR_POS", "path": "Engine", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "scalar" }, "name": "Filtered angular position of the exhaust VVTC system"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "2422"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "2422"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_AMOUNT_AIR_PUMPED", "path": "Engine", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "unknown" }, "name": "Amount of air pumped into cylinder"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "2448"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "2448"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_P_BEFORE_TURBINE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Pressure before turbine"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "244D"}, "freq": 5,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "244D"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_INLET_THROTTLE_UP_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Inlet throttle upstream temperature"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "245E"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "245E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_ENG_AIR_LOAD", "path": "Engine", "fmt": { "len": 16, "max": 3.99, "mul": 0.0000610352, "unit": "scalar" }, "name": "Engine air load"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "24C3"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "24C3"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_SLOW_ADAPTATIVE_TERM", "path": "Engine", "fmt": { "len": 16, "max": 49.99, "min": -50, "mul": 0.001525902, "add": -50, "unit": "percent" }, "name": "Slow adaptative term of the wastegate control"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "251E"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "251E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_RAW_UEGO_AIR_FUEL", "path": "Fuel", "fmt": { "len": 16, "max": 1.99, "mul": 0.0000305176, "unit": "scalar" }, "name": "Raw UEGO air fuel ratio measurement"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "25D4"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "25D4"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_AIR_FLAP_SET_POINT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 0.392156863, "unit": "percent" }, "name": "Air flap set point"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "287B"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "287B"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_FINAL_ALCOHOL", "path": "Engine", "fmt": { "len": 16, "max": 99.99, "mul": 0.001525902, "unit": "percent" }, "name": "Final alcohol adaptive"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "287F"}, "freq": 30,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "287F"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_MEMORIZED_VARIABLE", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Memorized variable of the fuel level"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "2887"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "2887"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_PWM_FUEL_PMP", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "percent" }, "name": "Of fuel pump actuator, PWM"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "28DC"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "28DC"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_ALTERNATOR_V_SET", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "Alternator voltage set-point"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "28E1"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "28E1"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_ALTERNATOR_LOAD_DA15", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 0.392156863, "unit": "percent" }, "name": "Alternator load"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "2958"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "2958"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_BAT_ST_CHG", "path": "Battery", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "percent" }, "name": "Battery state of charge"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "30D8"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "30D8"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_TOT_SUM_ENG_ON_TIME_H", "path": "Engine", "fmt": { "len": 32, "max": 596523, "min": -596523, "div": 3600, "sign": true, "unit": "hours" }, "name": "Total sum of the engine on time, h"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "30DB"}, "freq": 30,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "30DB"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_DRIVEN_DIST_SINCE", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Driven distance since the last successful regeneration"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "30DC"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "30DC"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_FUEL_CONS_SINCE_LAST", "path": "Fuel", "fmt": { "len": 32, "max": 2147483, "min": -2147483, "div": 1000, "sign": true, "unit": "liters" }, "name": "Fuel consumption since the last regeneration"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "30DD"}, "freq": 30,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "30DD"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_ENG_ON_TIME_SINCE", "path": "Engine", "fmt": { "len": 32, "max": 5965, "min": -5965, "div": 360000, "sign": true, "unit": "hours" }, "name": "Engine on time since the last regeneration"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "30DE"}, "freq": 30,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "30DE"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_ENG_OPERATION_TIME", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "hours" }, "name": "Engine operation time since the last successful regeneration"}
   ]},
-{ "hdr": "DA15", "rax": "15", "dbg": true, "cmd": {"22": "FD84"}, "freq": 1,
+{ "hdr": "DA15", "rax": "15", "cmd": {"22": "FD84"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "SANDERO_IAT_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 9.99, "mul": 5, "div": 32768, "unit": "volts" }, "name": "Intake air temperature sensor voltage"}
   ]}

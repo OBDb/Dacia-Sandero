@@ -1,0 +1,5 @@
+command_id: DA15.15.22FD84
+test_cases:
+- expected_values:
+    SANDERO_IAT_SENS_V: 0
+  response: 18DAF1150562FD840000

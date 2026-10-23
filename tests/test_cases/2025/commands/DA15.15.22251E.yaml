@@ -1,0 +1,11 @@
+command_id: DA15.15.22251E
+test_cases:
+- expected_values:
+    SANDERO_RAW_UEGO_AIR_FUEL: 0.03125
+  response: 18DAF1150562251E0400
+- expected_values:
+    SANDERO_RAW_UEGO_AIR_FUEL: 1.0546
+  response: 18DAF1150562251E86FD
+- expected_values:
+    SANDERO_RAW_UEGO_AIR_FUEL: 1.17163
+  response: 18DAF1150562251E95F8

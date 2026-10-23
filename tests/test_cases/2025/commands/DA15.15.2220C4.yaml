@@ -1,0 +1,14 @@
+command_id: DA15.15.2220C4
+test_cases:
+- expected_values:
+    SANDERO_RAW_BOOST_P_SENS: 1012
+  response: 18DAF115056220C403F4
+- expected_values:
+    SANDERO_RAW_BOOST_P_SENS: 1022
+  response: 18DAF115056220C403FE
+- expected_values:
+    SANDERO_RAW_BOOST_P_SENS: 1024
+  response: 18DAF115056220C40400
+- expected_values:
+    SANDERO_RAW_BOOST_P_SENS: 1384
+  response: 18DAF115056220C40568

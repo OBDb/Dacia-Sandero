@@ -1,0 +1,14 @@
+command_id: DA15.15.22245E
+test_cases:
+- expected_values:
+    SANDERO_ENG_AIR_LOAD: 0.1308
+  response: 18DAF1150562245E085F
+- expected_values:
+    SANDERO_ENG_AIR_LOAD: 0.45276
+  response: 18DAF1150562245E1CFA
+- expected_values:
+    SANDERO_ENG_AIR_LOAD: 0.82837
+  response: 18DAF1150562245E3504
+- expected_values:
+    SANDERO_ENG_AIR_LOAD: 1.18482
+  response: 18DAF1150562245E4BD4

@@ -1,0 +1,8 @@
+command_id: DA15.15.222958
+test_cases:
+- expected_values:
+    SANDERO_BAT_ST_CHG: 89.5
+  response: 18DAF11504622958B3
+- expected_values:
+    SANDERO_BAT_ST_CHG: 98
+  response: 18DAF11504622958C4
