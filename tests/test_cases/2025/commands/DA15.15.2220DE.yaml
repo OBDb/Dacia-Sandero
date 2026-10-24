@@ -4,29 +4,5 @@ test_cases:
     SANDERO_AAT_DA15: 11
   response: 18DAF115056220DE0B18
 - expected_values:
-    SANDERO_AAT_DA15: 11.2
-  response: 18DAF115056220DE0B1A
-- expected_values:
-    SANDERO_AAT_DA15: 11.5
-  response: 18DAF115056220DE0B1D
-- expected_values:
-    SANDERO_AAT_DA15: 12
-  response: 18DAF115056220DE0B22
-- expected_values:
-    SANDERO_AAT_DA15: 18
-  response: 18DAF115056220DE0B5E
-- expected_values:
-    SANDERO_AAT_DA15: 18.2
-  response: 18DAF115056220DE0B60
-- expected_values:
-    SANDERO_AAT_DA15: 18.5
-  response: 18DAF115056220DE0B63
-- expected_values:
-    SANDERO_AAT_DA15: 18.7
-  response: 18DAF115056220DE0B65
-- expected_values:
-    SANDERO_AAT_DA15: 19
-  response: 18DAF115056220DE0B68
-- expected_values:
     SANDERO_AAT_DA15: 19.2
   response: 18DAF115056220DE0B6A

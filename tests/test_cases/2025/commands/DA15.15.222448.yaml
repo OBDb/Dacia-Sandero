@@ -1,6 +1,9 @@
 command_id: DA15.15.222448
 test_cases:
 - expected_values:
+    SANDERO_P_BEFORE_TURBINE: 1021
+  response: 18DAF1150562244803FD
+- expected_values:
     SANDERO_P_BEFORE_TURBINE: 1022
   response: 18DAF1150562244803FE
 - expected_values:
