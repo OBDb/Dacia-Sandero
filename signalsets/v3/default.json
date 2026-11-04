@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "DA15", "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "740", "dbg": true, "cmd": {"22": "0100"}, "freq": 0.25,
   "signals": [
     {"id": "SANDERO_STEER_WHL_ANG", "path": "Tires", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.7, "unit": "degrees" }, "name": "Steering wheel angle"}
