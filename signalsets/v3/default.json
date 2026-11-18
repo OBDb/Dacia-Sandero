@@ -296,35 +296,35 @@
   "signals": [
     {"id": "SANDERO_RR_DOOR", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Rear right door open"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6300"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "745", "rax": "765", "dbg": true, "cmd": {"22": "6300"}, "freq": 60,
   "signals": [
     {"id": "SANDERO_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 767.25, "mul": 3, "div": 4, "nullmax": 767.25, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6301"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "745", "rax": "765", "dbg": true, "cmd": {"22": "6301"}, "freq": 60,
   "signals": [
     {"id": "SANDERO_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 767.25, "mul": 3, "div": 4, "nullmax": 767.25, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6302"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "745", "rax": "765", "dbg": true, "cmd": {"22": "6302"}, "freq": 60,
   "signals": [
     {"id": "SANDERO_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 767.25, "mul": 3, "div": 4, "nullmax": 767.25, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6303"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "745", "rax": "765", "dbg": true, "cmd": {"22": "6303"}, "freq": 60,
   "signals": [
     {"id": "SANDERO_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 767.25, "mul": 3, "div": 4, "nullmax": 767.25, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6310"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "745", "rax": "765", "dbg": true, "cmd": {"22": "6310"}, "freq": 60,
   "signals": [
     {"id": "SANDERO_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 97, "min": -30, "add": -30, "nullmax": 97, "unit": "celsius" }, "name": "Front left tire temperature", "suggestedMetric": "frontLeftTireTemperature"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6311"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "745", "rax": "765", "dbg": true, "cmd": {"22": "6311"}, "freq": 60,
   "signals": [
     {"id": "SANDERO_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 97, "min": -30, "add": -30, "nullmax": 97, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6312"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "745", "rax": "765", "dbg": true, "cmd": {"22": "6312"}, "freq": 60,
   "signals": [
     {"id": "SANDERO_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 97, "min": -30, "add": -30, "nullmax": 97, "unit": "celsius" }, "name": "Rear left tire temperature", "suggestedMetric": "rearLeftTireTemperature"}
   ]},
-{ "hdr": "745", "rax": "765", "cmd": {"22": "6313"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "745", "rax": "765", "dbg": true, "cmd": {"22": "6313"}, "freq": 60,
   "signals": [
     {"id": "SANDERO_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 97, "min": -30, "add": -30, "nullmax": 97, "unit": "celsius" }, "name": "Rear right tire temperature", "suggestedMetric": "rearRightTireTemperature"}
   ]},
