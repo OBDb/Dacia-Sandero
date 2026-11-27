@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.22206D
+test_cases:
+- expected_values:
+    SANDERO_CLUTCH_CONTACT_WIRE: 1
+  response: 7E80462206D01
+- expected_values:
+    SANDERO_CLUTCH_CONTACT_WIRE: 1
+  response: |-
+    SEARCHING...
+    7E80462206D01

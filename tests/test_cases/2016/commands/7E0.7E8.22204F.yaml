@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22204F
+test_cases:
+- expected_values:
+    SANDERO_AUTOMATIC_GEARBOX: 128
+  response: 7E80462204F80

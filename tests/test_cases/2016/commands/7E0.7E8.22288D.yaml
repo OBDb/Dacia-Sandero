@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.22288D
+test_cases:
+- expected_values:
+    SANDERO_MIN_ADAPTIVE: 93
+  response: |-
+    7E8100D62288D7FDD7F
+    7E821E07FDB7FDA7FD6

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22207B
+test_cases:
+- expected_values:
+    SANDERO_DUR_BUTTON_PRESS: 3
+  response: 7E80462207B03

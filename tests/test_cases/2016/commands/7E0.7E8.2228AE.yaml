@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2228AE
+test_cases:
+- expected_values:
+    SANDERO_GAS_MODE: 0
+  response: 7E8046228AE00

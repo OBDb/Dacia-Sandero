@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222533|din=C0
+test_cases:
+- expected_values:
+    SANDERO_GROSS_INLET_MANIFOLD_P_7E0: 434
+  response: 7E80562253301B2
+- expected_values:
+    SANDERO_GROSS_INLET_MANIFOLD_P_7E0: 525
+  response: 7E805622533020D
+- expected_values:
+    SANDERO_GROSS_INLET_MANIFOLD_P_7E0: 685
+  response: 7E80562253302AD

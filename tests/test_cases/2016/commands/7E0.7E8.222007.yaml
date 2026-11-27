@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222007
+test_cases:
+- expected_values:
+    SANDERO_EST_OIL_T: 75.4
+  response: 7E8056220070D9C
+- expected_values:
+    SANDERO_EST_OIL_T: 79.1
+  response: 7E8056220070DC1
+- expected_values:
+    SANDERO_EST_OIL_T: 83.6
+  response: 7E8056220070DEE
+- expected_values:
+    SANDERO_EST_OIL_T: 87.2
+  response: 7E8056220070E12
+- expected_values:
+    SANDERO_EST_OIL_T: 87.3
+  response: 7E8056220070E13
+- expected_values:
+    SANDERO_EST_OIL_T: 87.4
+  response: 7E8056220070E14
+- expected_values:
+    SANDERO_EST_OIL_T: 88
+  response: 7E8056220070E1A

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22284A
+test_cases:
+- expected_values:
+    SANDERO_CYL4_KNOCK: 7820
+  response: 7E80562284A1E8C

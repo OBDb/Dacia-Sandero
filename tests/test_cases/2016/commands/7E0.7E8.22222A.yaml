@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22222A
+test_cases:
+- expected_values:
+    SANDERO_REFRIG_P: 7.6
+  response: 7E80562222A004C
+- expected_values:
+    SANDERO_REFRIG_P: 13.4
+  response: 7E80562222A0086

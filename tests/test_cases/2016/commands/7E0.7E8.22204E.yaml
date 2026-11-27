@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22204E
+test_cases:
+- expected_values:
+    SANDERO_ACT_VSS_INFO_ABSENT: 35
+  response: 7E80462204E23

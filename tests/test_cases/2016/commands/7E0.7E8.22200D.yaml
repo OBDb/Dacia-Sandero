@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22200D
+test_cases:
+- expected_values:
+    SANDERO_REFRIG_P_SNS_V: 1.18
+  response: 7E80562200D0076
+- expected_values:
+    SANDERO_REFRIG_P_SNS_V: 1.19
+  response: 7E80562200D0077
+- expected_values:
+    SANDERO_REFRIG_P_SNS_V: 1.2
+  response: 7E80562200D0078
+- expected_values:
+    SANDERO_REFRIG_P_SNS_V: 1.25
+  response: 7E80562200D007D
+- expected_values:
+    SANDERO_REFRIG_P_SNS_V: 1.29
+  response: 7E80562200D0081
+- expected_values:
+    SANDERO_REFRIG_P_SNS_V: 1.37
+  response: 7E80562200D0089
+- expected_values:
+    SANDERO_REFRIG_P_SNS_V: 1.44
+  response: 7E80562200D0090
+- expected_values:
+    SANDERO_REFRIG_P_SNS_V: 1.57
+  response: 7E80562200D009D
+- expected_values:
+    SANDERO_REFRIG_P_SNS_V: 1.81
+  response: 7E80562200D00B5
+- expected_values:
+    SANDERO_REFRIG_P_SNS_V: 1.83
+  response: 7E80562200D00B7

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2225D6|din=C0
+test_cases:
+- expected_values:
+    SANDERO_COOLING_REQ_INJ: 1
+  response: 7E8046225D601

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222002|din=C0
+test_cases:
+- expected_values:
+    SANDERO_RPM: 0
+  response: '7E8056220020000'
+- expected_values:
+    SANDERO_RPM: 838
+  response: 7E8056220020D18
+- expected_values:
+    SANDERO_RPM: 853.75
+  response: 7E8056220020D57

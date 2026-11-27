@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.2180
+test_cases:
+- expected_values:
+    SANDERO_FAULT_FINDING: 70
+  response: |-
+    7E8101A618037333638
+    7E82152463030313439
+    7E82235335200DE4600
+    7E823327001010188AA

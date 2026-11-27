@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22251D|din=C0
+test_cases:
+- expected_values:
+    SANDERO_INTERNAL_T_SENS: 0
+  response: 7E80562251D0AAA

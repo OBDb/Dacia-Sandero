@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222804
+test_cases:
+- expected_values:
+    SANDERO_INJ_DUR: 0
+  response: '7E806622804000000'
+- expected_values:
+    SANDERO_INJ_DUR: 1704
+  response: 7E8066228040001AA
+- expected_values:
+    SANDERO_INJ_DUR: 2672
+  response: 7E80662280400029C
+- expected_values:
+    SANDERO_INJ_DUR: 3128
+  response: 7E80662280400030E
+- expected_values:
+    SANDERO_INJ_DUR: 3408
+  response: '7E806622804000354'
+- expected_values:
+    SANDERO_INJ_DUR: 4480
+  response: '7E806622804000460'
+- expected_values:
+    SANDERO_INJ_DUR: 5284
+  response: '7E806622804000529'

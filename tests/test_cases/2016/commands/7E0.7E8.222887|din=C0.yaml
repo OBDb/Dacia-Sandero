@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222887|din=C0
+test_cases:
+- expected_values:
+    SANDERO_INJ_FUEL_PMP_PWM: 0
+  response: '7E8056228870000'
+- expected_values:
+    SANDERO_INJ_FUEL_PMP_PWM: 100
+  response: '7E8056228872710'

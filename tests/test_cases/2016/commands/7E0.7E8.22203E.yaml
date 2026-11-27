@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22203E
+test_cases:
+- expected_values:
+    SANDERO_CC_SL_CONNECTION_AFTER_SL: 1
+  response: 7E80462203E01

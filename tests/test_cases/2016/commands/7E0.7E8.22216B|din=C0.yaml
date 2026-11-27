@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22216B|din=C0
+test_cases:
+- expected_values:
+    SANDERO_NUM_STARTING_1: 0
+  response: 7E80662216B000000

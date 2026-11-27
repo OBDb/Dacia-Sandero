@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22242F
+test_cases:
+- expected_values:
+    SANDERO_THROTTLE_POS: 14
+  response: 7E80562242F0118
+- expected_values:
+    SANDERO_THROTTLE_POS: 14.4
+  response: 7E80562242F0120
+- expected_values:
+    SANDERO_THROTTLE_POS: 17.3
+  response: 7E80562242F015A
+- expected_values:
+    SANDERO_THROTTLE_POS: 17.4
+  response: 7E80562242F015C
+- expected_values:
+    SANDERO_THROTTLE_POS: 19.95
+  response: 7E80562242F018F
+- expected_values:
+    SANDERO_THROTTLE_POS: 20.35
+  response: 7E80562242F0197
+- expected_values:
+    SANDERO_THROTTLE_POS: 21.6
+  response: 7E80562242F01B0

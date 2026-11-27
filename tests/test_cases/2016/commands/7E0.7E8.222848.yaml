@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222848
+test_cases:
+- expected_values:
+    SANDERO_CYL2_KNOCK: 10626
+  response: '7E8056228482982'
+- expected_values:
+    SANDERO_CYL2_KNOCK: 10627
+  response: '7E8056228482983'

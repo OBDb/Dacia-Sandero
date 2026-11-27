@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222039
+test_cases:
+- expected_values:
+    SANDERO_RV_LV_BUTTON_V: 3994
+  response: 7E8056220390F9A
+- expected_values:
+    SANDERO_RV_LV_BUTTON_V: 3999
+  response: 7E8056220390F9F

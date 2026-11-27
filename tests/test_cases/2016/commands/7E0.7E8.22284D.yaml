@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22284D
+test_cases:
+- expected_values:
+    SANDERO_KNOCK_AVG: 18
+  response: 7E80462284D12
+- expected_values:
+    SANDERO_KNOCK_AVG: 29
+  response: 7E80462284D1D
+- expected_values:
+    SANDERO_KNOCK_AVG: 32
+  response: 7E80462284D20
+- expected_values:
+    SANDERO_KNOCK_AVG: 49
+  response: 7E80462284D31
+- expected_values:
+    SANDERO_KNOCK_AVG: 56
+  response: 7E80462284D38
+- expected_values:
+    SANDERO_KNOCK_AVG: 66
+  response: 7E80462284D42

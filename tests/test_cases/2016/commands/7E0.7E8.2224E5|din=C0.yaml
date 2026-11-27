@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2224E5|din=C0
+test_cases:
+- expected_values:
+    SANDERO_BOOST_P_WASTEGATE: 0
+  response: 7E8046224E500

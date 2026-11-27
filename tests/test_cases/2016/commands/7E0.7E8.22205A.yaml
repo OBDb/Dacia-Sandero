@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22205A
+test_cases:
+- expected_values:
+    SANDERO_IDLE_SPD_REGULATION: 2
+  response: 7E80462205A02
+- expected_values:
+    SANDERO_IDLE_SPD_REGULATION: 8
+  response: 7E80462205A08
+- expected_values:
+    SANDERO_IDLE_SPD_REGULATION: 64
+  response: 7E80462205A40

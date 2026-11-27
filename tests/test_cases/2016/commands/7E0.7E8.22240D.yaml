@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22240D
+test_cases:
+- expected_values:
+    SANDERO_INLET_AIR_T_7E0: 6563
+  response: 7E80562240D0B54
+- expected_values:
+    SANDERO_INLET_AIR_T_7E0: 6564
+  response: 7E80562240D0B5E

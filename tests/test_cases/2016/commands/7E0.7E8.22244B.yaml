@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22244B
+test_cases:
+- expected_values:
+    SANDERO_O2_UP_HEAT_R: 0
+  response: 7E80462244B00
+- expected_values:
+    SANDERO_O2_UP_HEAT_R: 96.86275
+  response: 7E80462244BF7
+- expected_values:
+    SANDERO_O2_UP_HEAT_R: 98.43137
+  response: 7E80462244BFB
+- expected_values:
+    SANDERO_O2_UP_HEAT_R: 100
+  response: 7E80462244BFF

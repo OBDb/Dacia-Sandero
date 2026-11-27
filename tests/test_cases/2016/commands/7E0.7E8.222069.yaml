@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222069
+test_cases:
+- expected_values:
+    SANDERO_ENG_TQ_REFERENCE: 0
+  response: '7E8056220690000'
+- expected_values:
+    SANDERO_ENG_TQ_REFERENCE: 9.71875
+  response: '7E8056220690137'
+- expected_values:
+    SANDERO_ENG_TQ_REFERENCE: 35.65625
+  response: '7E8056220690475'
+- expected_values:
+    SANDERO_ENG_TQ_REFERENCE: 38.1875
+  response: 7E80562206904C6
+- expected_values:
+    SANDERO_ENG_TQ_REFERENCE: 46.03125
+  response: 7E80562206905C1
+- expected_values:
+    SANDERO_ENG_TQ_REFERENCE: 49.1875
+  response: '7E8056220690626'
+- expected_values:
+    SANDERO_ENG_TQ_REFERENCE: 62.65625
+  response: 7E80562206907D5

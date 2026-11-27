@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.22288E
+test_cases:
+- expected_values:
+    SANDERO_MAX_ADAPTIVE: 137
+  response: |-
+    7E8100D62288E800980
+    7E8210E800C80088012

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2220C8|din=C0
+test_cases:
+- expected_values:
+    SANDERO_LPG_P_7E0: 1013
+  response: 7E8056220C803F5

@@ -1,0 +1,13 @@
+command_id: 7E0.7E8.2228C5
+test_cases:
+- expected_values:
+    SANDERO_LAMBDA: 0.89999
+  response: 7E8056228C57333
+- expected_values:
+    SANDERO_LAMBDA: 0.89999
+  response: |-
+    7E8056228C57333
+    OK
+- expected_values:
+    SANDERO_LAMBDA: 1.10001
+  response: 7E8056228C58CCD

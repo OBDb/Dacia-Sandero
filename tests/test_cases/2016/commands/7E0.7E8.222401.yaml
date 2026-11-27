@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222401
+test_cases:
+- expected_values:
+    SANDERO_BOOST_P: 0.923
+  response: 7E805622401039B
+- expected_values:
+    SANDERO_BOOST_P: 0.925
+  response: 7E805622401039D
+- expected_values:
+    SANDERO_BOOST_P: 0.927
+  response: 7E805622401039F

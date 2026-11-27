@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222255|din=C0
+test_cases:
+- expected_values:
+    SANDERO_CAM_SHIFTER_MEAS_POS: 0
+  response: '7E8056222550000'

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2222B5|din=C0
+test_cases:
+- expected_values:
+    SANDERO_END_CLU_SWITCH: 0
+  response: 7E8046222B500

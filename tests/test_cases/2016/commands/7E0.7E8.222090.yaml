@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222090
+test_cases:
+- expected_values:
+    SANDERO_IMPACT_DETECTED: 15
+  response: 7E8046220900F

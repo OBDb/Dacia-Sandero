@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222004
+test_cases:
+- expected_values:
+    SANDERO_ENGINE_TORQUE: -29.15625
+  response: 7E8056220042E5B
+- expected_values:
+    SANDERO_ENGINE_TORQUE: -2.625
+  response: 7E80562200431AC
+- expected_values:
+    SANDERO_ENGINE_TORQUE: 3.8125
+  response: 7E805622004327A
+- expected_values:
+    SANDERO_ENGINE_TORQUE: 9.59375
+  response: '7E8056220043333'
+- expected_values:
+    SANDERO_ENGINE_TORQUE: 52.90625
+  response: 7E805622004389D
+- expected_values:
+    SANDERO_ENGINE_TORQUE: 103.78125
+  response: 7E8056220043EF9
+- expected_values:
+    SANDERO_ENGINE_TORQUE: 140.71875
+  response: '7E8056220044397'

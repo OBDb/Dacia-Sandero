@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22FD84
+test_cases:
+- expected_values:
+    SANDERO_AIR_T_SENS_V: 0.81543
+  response: 7E80562FD8414E0
+- expected_values:
+    SANDERO_AIR_T_SENS_V: 0.9375
+  response: 7E80562FD841800

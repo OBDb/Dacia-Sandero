@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.222850
+test_cases:
+- expected_values:
+    SANDERO_RICHNESS_CORR_OP: 32768
+  response: '7E8056228508000'
+- expected_values:
+    SANDERO_RICHNESS_CORR_OP: 34392
+  response: '7E8056228508658'
+- expected_values:
+    SANDERO_RICHNESS_CORR_OP: 35454
+  response: 7E8056228508A7E
+- expected_values:
+    SANDERO_RICHNESS_CORR_OP: 35467
+  response: 7E8056228508A8B
+- expected_values:
+    SANDERO_RICHNESS_CORR_OP: 35526
+  response: 7E8056228508AC6
+- expected_values:
+    SANDERO_RICHNESS_CORR_OP: 35711
+  response: 7E8056228508B7F

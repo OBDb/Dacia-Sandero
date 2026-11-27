@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.222170
+test_cases:
+- expected_values:
+    SANDERO_AUTO_EMERGENCY: 0
+    SANDERO_CHANGE_VSS_UNIT: 0
+    SANDERO_STOP_WARN_LIGHT: 0
+  response: '7E80462217000'

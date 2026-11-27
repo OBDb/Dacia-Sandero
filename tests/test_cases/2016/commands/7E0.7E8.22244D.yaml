@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22244D
+test_cases:
+- expected_values:
+    SANDERO_DAMPER_VLV_UP_T: 50.2
+  response: 7E80562244D0CA0
+- expected_values:
+    SANDERO_DAMPER_VLV_UP_T: 51.7
+  response: 7E80562244D0CAF
+- expected_values:
+    SANDERO_DAMPER_VLV_UP_T: 52.5
+  response: 7E80562244D0CB7
+- expected_values:
+    SANDERO_DAMPER_VLV_UP_T: 53.2
+  response: 7E80562244D0CBE
+- expected_values:
+    SANDERO_DAMPER_VLV_UP_T: 54
+  response: 7E80562244D0CC6
+- expected_values:
+    SANDERO_DAMPER_VLV_UP_T: 55.5
+  response: 7E80562244D0CD5
+- expected_values:
+    SANDERO_DAMPER_VLV_UP_T: 56.2
+  response: 7E80562244D0CDC

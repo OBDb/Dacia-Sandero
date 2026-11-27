@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222862
+test_cases:
+- expected_values:
+    SANDERO_FUEL_PMP_PRIMING: 1
+  response: '7E80462286201'

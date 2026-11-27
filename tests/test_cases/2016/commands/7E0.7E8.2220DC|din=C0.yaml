@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2220DC|din=C0
+test_cases:
+- expected_values:
+    SANDERO_SWIRL_FLAP: 0
+  response: 7E8046220DC00

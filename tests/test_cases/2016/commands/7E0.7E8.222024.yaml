@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222024
+test_cases:
+- expected_values:
+    SANDERO_IDLE_SPD_REFERENCE: 750
+  response: 7E8056220240BB8
+- expected_values:
+    SANDERO_IDLE_SPD_REFERENCE: 850
+  response: 7E8056220240D48

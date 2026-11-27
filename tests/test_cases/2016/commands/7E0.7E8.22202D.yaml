@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22202D
+test_cases:
+- expected_values:
+    SANDERO_ENG_IMMOBILISER: 0
+  response: 7E80462202D00
+- expected_values:
+    SANDERO_ENG_IMMOBILISER: 1
+  response: 7E80462202D01

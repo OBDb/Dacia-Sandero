@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222506
+test_cases:
+- expected_values:
+    SANDERO_UP_O2_SENS_HEATING: 2
+  response: '7E80462250602'

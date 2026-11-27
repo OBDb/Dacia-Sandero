@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222036
+test_cases:
+- expected_values:
+    SANDERO_ACCEL_DETECT_BLOCKED: 1
+  response: '7E80462203601'

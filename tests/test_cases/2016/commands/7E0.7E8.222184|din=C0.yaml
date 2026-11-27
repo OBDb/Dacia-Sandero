@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222184|din=C0
+test_cases:
+- expected_values:
+    SANDERO_MAX_PERMISSIBLE_SPD: 655
+  response: 7E805622184FFFF
