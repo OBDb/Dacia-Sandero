@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222849
+test_cases:
+- expected_values:
+    SANDERO_CYL3_KNOCK: 17003
+  response: 7E805622849426B

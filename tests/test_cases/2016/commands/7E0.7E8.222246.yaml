@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.222246
+test_cases:
+- expected_values:
+    SANDERO_IDLE_REG_INT_CORR: -1024
+  response: '7E8056222468000'
+- expected_values:
+    SANDERO_IDLE_REG_INT_CORR: -1024
+  response: '7E8056222468001'
+- expected_values:
+    SANDERO_IDLE_REG_INT_CORR: -1024
+  response: '7E8056222468036'
+- expected_values:
+    SANDERO_IDLE_REG_INT_CORR: -1024
+  response: 7E805622246803B
+- expected_values:
+    SANDERO_IDLE_REG_INT_CORR: -1024
+  response: 7E805622246807D
+- expected_values:
+    SANDERO_IDLE_REG_INT_CORR: -1024
+  response: 7E80562224680DA

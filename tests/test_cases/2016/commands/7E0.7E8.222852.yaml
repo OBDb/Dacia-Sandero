@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222852
+test_cases:
+- expected_values:
+    SANDERO_RICHNESS_REG_OFFSET: 0.115
+  response: '7E80462285273'

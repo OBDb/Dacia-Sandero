@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222092
+test_cases:
+- expected_values:
+    SANDERO_AC_AUTHORIZATION: 0
+  response: '7E80462209200'
+- expected_values:
+    SANDERO_AC_AUTHORIZATION: 1
+  response: '7E80462209201'

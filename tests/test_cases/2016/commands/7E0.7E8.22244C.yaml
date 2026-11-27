@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22244C
+test_cases:
+- expected_values:
+    SANDERO_O2_DN_HEAT_R: 0
+  response: 7E80462244C00
+- expected_values:
+    SANDERO_O2_DN_HEAT_R: 31.37255
+  response: 7E80462244C50
+- expected_values:
+    SANDERO_O2_DN_HEAT_R: 31.76471
+  response: 7E80462244C51
+- expected_values:
+    SANDERO_O2_DN_HEAT_R: 32.54902
+  response: 7E80462244C53
+- expected_values:
+    SANDERO_O2_DN_HEAT_R: 56.86275
+  response: 7E80462244C91

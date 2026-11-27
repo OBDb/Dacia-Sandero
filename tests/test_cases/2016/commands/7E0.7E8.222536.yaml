@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222536
+test_cases:
+- expected_values:
+    SANDERO_TRANSMITTED_THROTTLE: 9.6
+  response: 7E80562253600C0

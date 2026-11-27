@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22203D
+test_cases:
+- expected_values:
+    SANDERO_SPD_LIMITER_FUNCTION: 1
+  response: 7E80462203D01

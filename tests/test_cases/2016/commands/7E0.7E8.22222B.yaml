@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22222B
+test_cases:
+- expected_values:
+    SANDERO_MANUAL_OR_ASSISTED: 0
+  response: 7E80462222B00
+- expected_values:
+    SANDERO_MANUAL_OR_ASSISTED: 1
+  response: 7E80462222B01

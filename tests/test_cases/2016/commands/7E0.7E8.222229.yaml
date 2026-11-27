@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222229
+test_cases:
+- expected_values:
+    SANDERO_AC_COMMAND: 1
+  response: '7E80462222901'

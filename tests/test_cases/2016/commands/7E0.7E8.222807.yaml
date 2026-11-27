@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222807
+test_cases:
+- expected_values:
+    SANDERO_IGN_TIMING_ADV: 1
+  response: '7E80462280701'
+- expected_values:
+    SANDERO_IGN_TIMING_ADV: 29
+  response: 7E8046228071D
+- expected_values:
+    SANDERO_IGN_TIMING_ADV: 58
+  response: 7E8046228073A
+- expected_values:
+    SANDERO_IGN_TIMING_ADV: 79
+  response: 7E8046228074F
+- expected_values:
+    SANDERO_IGN_TIMING_ADV: 121
+  response: '7E80462280779'
+- expected_values:
+    SANDERO_IGN_TIMING_ADV: 123
+  response: 7E8046228077B
+- expected_values:
+    SANDERO_IGN_TIMING_ADV: 137
+  response: '7E80462280789'

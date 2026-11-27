@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22210E
+test_cases:
+- expected_values:
+    SANDERO_ENGINE_ROT_COUNT: 2312.03326
+  response: 7E80762210E89CED3EC

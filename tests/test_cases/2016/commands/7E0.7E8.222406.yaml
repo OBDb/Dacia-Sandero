@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222406
+test_cases:
+- expected_values:
+    SANDERO_INLET_FLAP_CTRL: 0
+  response: '7E8056224068000'

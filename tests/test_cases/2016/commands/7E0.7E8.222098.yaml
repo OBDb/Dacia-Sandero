@@ -1,0 +1,13 @@
+command_id: 7E0.7E8.222098
+test_cases:
+- expected_values:
+    SANDERO_RPM_REQUIRED_AIR_CON: 0
+  response: '7E8056220980000'
+- expected_values:
+    SANDERO_RPM_REQUIRED_AIR_CON: 0
+  response: |-
+    7E8056220980000
+    OK
+- expected_values:
+    SANDERO_RPM_REQUIRED_AIR_CON: 900
+  response: 7E8056220980E10

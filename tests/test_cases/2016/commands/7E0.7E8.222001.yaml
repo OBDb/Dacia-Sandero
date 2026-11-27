@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.222001
+test_cases:
+- expected_values:
+    SANDERO_ECT: 83.2
+  response: 7E8056220010DEA
+- expected_values:
+    SANDERO_ECT: 84
+  response: 7E8056220010DF2
+- expected_values:
+    SANDERO_ECT: 84.7
+  response: 7E8056220010DF9
+- expected_values:
+    SANDERO_ECT: 85.5
+  response: 7E8056220010E01
+- expected_values:
+    SANDERO_ECT: 87
+  response: 7E8056220010E10
+- expected_values:
+    SANDERO_ECT: 87.7
+  response: 7E8056220010E17

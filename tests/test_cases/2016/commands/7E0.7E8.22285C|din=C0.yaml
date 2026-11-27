@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22285C|din=C0
+test_cases:
+- expected_values:
+    SANDERO_FUEL_FLOW_CORR_CYL_3: 267
+  response: 7E80462285C59
+- expected_values:
+    SANDERO_FUEL_FLOW_CORR_CYL_3: 273
+  response: 7E80462285C5B
+- expected_values:
+    SANDERO_FUEL_FLOW_CORR_CYL_3: 642
+  response: 7E80462285CD6

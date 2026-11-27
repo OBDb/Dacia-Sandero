@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2228DD
+test_cases:
+- expected_values:
+    SANDERO_ALTERNATOR_SETPOINT_V: 0
+  response: 7E8056228DD0000

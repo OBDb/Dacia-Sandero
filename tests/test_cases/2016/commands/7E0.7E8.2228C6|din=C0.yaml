@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2228C6|din=C0
+test_cases:
+- expected_values:
+    SANDERO_FUEL_FLOW: 18.0224
+  response: 7E8056228C600DC
+- expected_values:
+    SANDERO_FUEL_FLOW: 22.60992
+  response: 7E8056228C60114
+- expected_values:
+    SANDERO_FUEL_FLOW: 38.83008
+  response: 7E8056228C601DA

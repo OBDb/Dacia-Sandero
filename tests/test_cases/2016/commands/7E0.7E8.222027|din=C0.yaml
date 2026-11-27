@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222027|din=C0
+test_cases:
+- expected_values:
+    SANDERO_CLU_START_TRAVEL_SWITCH: 0
+  response: '7E80462202700'
+- expected_values:
+    SANDERO_CLU_START_TRAVEL_SWITCH: 1
+  response: '7E80462202701'

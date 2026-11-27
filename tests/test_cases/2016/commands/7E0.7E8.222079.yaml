@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222079
+test_cases:
+- expected_values:
+    SANDERO_CRUISE_CTRL: 4
+  response: '7E80462207904'

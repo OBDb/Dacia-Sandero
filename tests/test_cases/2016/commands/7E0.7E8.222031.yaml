@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222031
+test_cases:
+- expected_values:
+    SANDERO_IN_CAM_DEPHASING: 0
+  response: '7E8056220310000'
+- expected_values:
+    SANDERO_IN_CAM_DEPHASING: 0.04
+  response: '7E8056220310002'
+- expected_values:
+    SANDERO_IN_CAM_DEPHASING: 0.12
+  response: '7E8056220310006'
+- expected_values:
+    SANDERO_IN_CAM_DEPHASING: 0.24
+  response: 7E805622031000C

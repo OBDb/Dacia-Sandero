@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22FD81
+test_cases:
+- expected_values:
+    SANDERO_MANIFOLD_P_SNS_V: 0.71094
+  response: 7E80562FD810B60
+- expected_values:
+    SANDERO_MANIFOLD_P_SNS_V: 0.76562
+  response: 7E80562FD810C40
+- expected_values:
+    SANDERO_MANIFOLD_P_SNS_V: 3.49219
+  response: 7E80562FD8137E0
+- expected_values:
+    SANDERO_MANIFOLD_P_SNS_V: 3.86719
+  response: 7E80562FD813DE0
+- expected_values:
+    SANDERO_MANIFOLD_P_SNS_V: 4.26562
+  response: 7E80562FD814440
+- expected_values:
+    SANDERO_MANIFOLD_P_SNS_V: 4.375
+  response: 7E80562FD814600
+- expected_values:
+    SANDERO_MANIFOLD_P_SNS_V: 6.99219
+  response: 7E80562FD816FE0

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222573|din=C0
+test_cases:
+- expected_values:
+    SANDERO_DOUBLE_LOOP_ADAPTIVE: -0.01042
+  response: 7E8056225737C00
+- expected_values:
+    SANDERO_DOUBLE_LOOP_ADAPTIVE: 3.3333333332441484e-07
+  response: '7E8056225738000'

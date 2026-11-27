@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22244A
+test_cases:
+- expected_values:
+    SANDERO_O2_DN_V: 5
+  response: 7E80562244A0005
+- expected_values:
+    SANDERO_O2_DN_V: 122
+  response: 7E80562244A007A
+- expected_values:
+    SANDERO_O2_DN_V: 142
+  response: 7E80562244A008E
+- expected_values:
+    SANDERO_O2_DN_V: 220
+  response: 7E80562244A00DC
+- expected_values:
+    SANDERO_O2_DN_V: 337
+  response: 7E80562244A0151
+- expected_values:
+    SANDERO_O2_DN_V: 347
+  response: 7E80562244A015B
+- expected_values:
+    SANDERO_O2_DN_V: 356
+  response: 7E80562244A0164
+- expected_values:
+    SANDERO_O2_DN_V: 591
+  response: 7E80562244A024F

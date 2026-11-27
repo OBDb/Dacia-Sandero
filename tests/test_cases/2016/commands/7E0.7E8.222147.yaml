@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222147
+test_cases:
+- expected_values:
+    SANDERO_FLYWHEEL_TGT: 1
+  response: '7E80462214701'

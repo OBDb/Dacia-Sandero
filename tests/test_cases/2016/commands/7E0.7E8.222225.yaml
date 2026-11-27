@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222225
+test_cases:
+- expected_values:
+    SANDERO_VSS_MULTIPLEXED: 0
+  response: '7E80462222500'

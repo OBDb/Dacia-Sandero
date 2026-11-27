@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22222E
+test_cases:
+- expected_values:
+    SANDERO_MANUAL_GEARBOX_LEVER: 0
+  response: 7E80462222E00
+- expected_values:
+    SANDERO_MANUAL_GEARBOX_LEVER: 1
+  response: 7E80462222E01

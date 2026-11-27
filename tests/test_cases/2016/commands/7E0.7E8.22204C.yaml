@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22204C
+test_cases:
+- expected_values:
+    SANDERO_CRUISE_CTRL_SPD_LIMITER: 0
+  response: 7E80462204C00

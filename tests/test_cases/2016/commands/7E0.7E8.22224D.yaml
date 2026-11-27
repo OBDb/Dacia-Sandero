@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22224D
+test_cases:
+- expected_values:
+    SANDERO_EXH_CAM_SHIFTER_SV: 0
+  response: 7E80562224D0000

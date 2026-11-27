@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22215D
+test_cases:
+- expected_values:
+    SANDERO_TORQUEMETER_ADAPT_CORR: -80
+  response: 7E80562215D7FB0
+- expected_values:
+    SANDERO_TORQUEMETER_ADAPT_CORR: -78
+  response: 7E80562215D7FB2
+- expected_values:
+    SANDERO_TORQUEMETER_ADAPT_CORR: -72
+  response: 7E80562215D7FB8

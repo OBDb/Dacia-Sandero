@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2222B7|din=C0
+test_cases:
+- expected_values:
+    SANDERO_CLU_END_TRAVEL: 2
+  response: 7E8046222B702

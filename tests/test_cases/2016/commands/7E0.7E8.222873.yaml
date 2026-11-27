@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222873
+test_cases:
+- expected_values:
+    SANDERO_RICHNESS_ADAPT: 32768
+  response: '7E8056228738000'

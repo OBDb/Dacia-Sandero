@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222023
+test_cases:
+- expected_values:
+    SANDERO_SENS_SUP_NO_3_V: 5000
+  response: '7E8056220231388'
+- expected_values:
+    SANDERO_SENS_SUP_NO_3_V: 5010
+  response: '7E8056220231392'

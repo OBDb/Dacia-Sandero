@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2228AD
+test_cases:
+- expected_values:
+    SANDERO_TRANSITION_LPG_MODE: 0
+  response: 7E8046228AD00

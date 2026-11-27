@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22200B
+test_cases:
+- expected_values:
+    SANDERO_ACCEL_POT_V1: 0.718
+  response: 7E80562200B02CE
+- expected_values:
+    SANDERO_ACCEL_POT_V1: 0.737
+  response: 7E80562200B02E1
+- expected_values:
+    SANDERO_ACCEL_POT_V1: 1.182
+  response: 7E80562200B049E
+- expected_values:
+    SANDERO_ACCEL_POT_V1: 1.67
+  response: 7E80562200B0686
+- expected_values:
+    SANDERO_ACCEL_POT_V1: 1.992
+  response: 7E80562200B07C8

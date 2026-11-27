@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22219B
+test_cases:
+- expected_values:
+    SANDERO_MAX_VSS: 5
+  response: 7E80562219B01F4

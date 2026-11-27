@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2222AA|din=C0
+test_cases:
+- expected_values:
+    SANDERO_STARTER_WEAR_CNT: 16465
+  response: 7E8066222AA004051
+- expected_values:
+    SANDERO_STARTER_WEAR_CNT: 16466
+  response: 7E8066222AA004052

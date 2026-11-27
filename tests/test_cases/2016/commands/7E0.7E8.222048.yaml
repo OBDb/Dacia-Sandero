@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222048
+test_cases:
+- expected_values:
+    SANDERO_STARTING: 1
+  response: '7E80462204801'
+- expected_values:
+    SANDERO_STARTING: 2
+  response: '7E80462204802'

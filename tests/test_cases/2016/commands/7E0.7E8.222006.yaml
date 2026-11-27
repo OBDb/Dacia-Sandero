@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222006
+test_cases:
+- expected_values:
+    SANDERO_TOT_DIST_TRAVELLED: 48006
+  response: 7E80662200600BB86
+- expected_values:
+    SANDERO_TOT_DIST_TRAVELLED: 48007
+  response: 7E80662200600BB87

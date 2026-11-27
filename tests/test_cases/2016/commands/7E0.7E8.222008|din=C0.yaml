@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222008|din=C0
+test_cases:
+- expected_values:
+    SANDERO_FUEL_T: -40
+  response: 7E805622008091A

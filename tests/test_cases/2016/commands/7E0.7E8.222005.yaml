@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.222005
+test_cases:
+- expected_values:
+    SANDERO_ECU_SUPPLY_V: 12.29
+  response: 7E80562200504CD
+- expected_values:
+    SANDERO_ECU_SUPPLY_V: 12.39
+  response: 7E80562200504D7
+- expected_values:
+    SANDERO_ECU_SUPPLY_V: 12.49
+  response: 7E80562200504E1
+- expected_values:
+    SANDERO_ECU_SUPPLY_V: 12.59
+  response: 7E80562200504EB
+- expected_values:
+    SANDERO_ECU_SUPPLY_V: 12.7
+  response: 7E80562200504F6
+- expected_values:
+    SANDERO_ECU_SUPPLY_V: 13.41
+  response: 7E805622005053D
+- expected_values:
+    SANDERO_ECU_SUPPLY_V: 13.51
+  response: '7E8056220050547'
+- expected_values:
+    SANDERO_ECU_SUPPLY_V: 13.61
+  response: '7E8056220050551'
+- expected_values:
+    SANDERO_ECU_SUPPLY_V: 13.71
+  response: 7E805622005055B

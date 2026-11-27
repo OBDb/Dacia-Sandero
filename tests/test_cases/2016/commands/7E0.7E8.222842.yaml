@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222842
+test_cases:
+- expected_values:
+    SANDERO_CYL2_MISFIRE_CNT: 0
+  response: '7E8056228420000'

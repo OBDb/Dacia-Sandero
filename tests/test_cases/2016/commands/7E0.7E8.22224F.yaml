@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22224F
+test_cases:
+- expected_values:
+    SANDERO_EXH_CAM_PHASING: 0
+  response: 7E80562224F0000

@@ -419,191 +419,191 @@
   "signals": [
     {"id": "SANDERO_12V_A", "path": "Electrical", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "amps" }, "name": "12V battery current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "80"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "80"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FAULT_FINDING", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "scalar" }, "name": "Fault finding version"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2001"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2001"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ECT", "path": "Engine", "fmt": { "len": 16, "max": 6280.5, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2002"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2002"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_RPM", "path": "Movement", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "rpm" }, "name": "Engine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2003"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2003"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_VSS", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2004"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2004"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ENGINE_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1647.9687, "min": -400, "div": 32, "add": -400, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2005"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2005"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ECU_SUPPLY_V", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "volts" }, "name": "Supply voltage, ECU"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2006"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2006"}, "freq": 30, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_TOT_DIST_TRAVELLED", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Total distance travelled in km"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2007"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2007"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_EST_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.5, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Engine oil temperature, estimated", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2008"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2008"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FUEL_T", "path": "Fuel", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2009"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2009"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ATMOSPHERIC_P", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Atmospheric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "200B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ACCEL_POT_V1", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal potentiometer voltage, track 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "200C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200C"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ACCEL_POT_V2", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal potentiometer voltage, track 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "200D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_REFRIG_P_SNS_V", "path": "Climate", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "volts" }, "name": "Refrigerant pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "200E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ECU_POST_IGN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Post-ignition status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "200F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200F"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_BRAKE_MUX_SIG", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Braking detected multiplex signal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2010"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2010"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MOTOR_STS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Motor status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2014"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2014"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CAM_TDC_SYNC", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Camshaft top dead center synchronization"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2016"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2016"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CRANK_SYNC", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crankshaft synchronization"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "201E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "201E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_AC_COMP", "path": "Climate", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "A/C compressor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2021"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2021"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_SNS_FEED_V1", "path": "Electrical", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Sensor feed voltage 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2022"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2022"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_SNS_FEED_V2", "path": "Electrical", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Sensor feed voltage 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2023"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2023"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_SENS_SUP_NO_3_V", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "millivolts" }, "name": "Sensor supply 3 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2024"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2024"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_IDLE_SPD_REFERENCE", "path": "Movement", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "rpm" }, "name": "Idle speed reference"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2025"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2025"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_BRAKE_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake pedal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2026"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2026"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_WIRED_BRAKE_CONTACT", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake contact, wired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2027"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2027"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CLU_START_TRAVEL_SWITCH", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch start of travel switch"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2028"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2028"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_OBD_LIGHT_REQ", "path": "Lights", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diagnostic light request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "202D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ENG_IMMOBILISER", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine immobiliser"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "202E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ACCEL_POS", "path": "Movement", "fmt": { "len": 16, "max": 81.9187, "div": 800, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2030"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2030"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_IN_CAM_DEPHASER_SETPT", "path": "Engine", "fmt": { "len": 16, "max": 1310.7, "div": 50, "unit": "degrees" }, "name": "Inlet camshaft dephaser set point"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2031"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2031"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_IN_CAM_DEPHASING", "path": "Engine", "fmt": { "len": 16, "max": 1310.7, "div": 50, "unit": "degrees" }, "name": "Inlet camshaft dephasing"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2033"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2033"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_IN_CAM_DEPHASER_OCR", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "percent" }, "name": "Inlet camshaft dephaser control OCR"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2035"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2035"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CRUISE_CTRL_TGT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control, target"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2036"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2036"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ACCEL_DETECT_BLOCKED", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Accelerator pedal detection blocked"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2039"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2039"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_RV_LV_BUTTON_V", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "millivolts" }, "name": "Rv/lv button voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "203A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "203A"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CRUISE_CTRL_FUNCTION", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control function"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "203B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "203B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CC_SL_CONNECTION", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "CC/SL connection after cc button pressed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "203D"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "203D"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_SPD_LIMITER_FUNCTION", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Speed limiter function"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "203E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "203E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CC_SL_CONNECTION_AFTER_SL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "CC/SL connection after sl button pressed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "203F"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "203F"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_SPD_LIMITER", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Speed limiter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2041"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2041"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CRUISE_CTRL_SPD_LIMITER_BUTTONS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control/speed limiter buttons"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2045"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2045"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CLU_END_TRAVEL_SWITCH", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch end of travel switch"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2047"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2047"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FIRST_START", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "First start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2048"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2048"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_STARTING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Starting"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "204A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "204A"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FAN_HI_SPD", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fan high speed request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "204B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "204B"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CRUISE_CTRL_SPD", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control/speed limiter buttons"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "204C"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "204C"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CRUISE_CTRL_SPD_LIMITER", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control/speed limiter function"}
   ]},
@@ -611,177 +611,177 @@
   "signals": [
     {"id": "SANDERO_CC_OP_RELIABLY", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cc operating reliably"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "204E"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "204E"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ACT_VSS_INFO_ABSENT", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Actual vehicle speed info. absent"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "204F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "204F"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_AUTOMATIC_GEARBOX", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Automatic gearbox in defect mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2050"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2050"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_VSS_7E0", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2051"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2051"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_VSS_UNIT", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle speed unit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2057"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2057"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ALT_PWR", "path": "Electrical", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "watts" }, "name": "Alternator power"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2059"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2059"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CLUTCH_TRAVEL_SW", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Clutch start-of-travel switch"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "205A"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "205A"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_IDLE_SPD_REGULATION", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Idle speed regulation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2067"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2067"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_GROSS_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 2047, "div": 32, "unit": "newtonMeters" }, "name": "Gross engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2069"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2069"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ENG_TQ_REFERENCE", "path": "Engine", "fmt": { "len": 16, "max": 2047, "div": 32, "unit": "newtonMeters" }, "name": "Engine torque reference value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "206A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "206A"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_BRAKE_CONTACT_1_DUR", "path": "Control", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Brake contact duration 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "206B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "206B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_BRAKE_CONTACT_2_DUR", "path": "Control", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Brake contact duration 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "206D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "206D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CLUTCH_CONTACT_WIRE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch contact wire connection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "206E"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "206E"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_BRAKE_SWITCH", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake switch"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2078"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2078"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CC_SL_DEACTIVATION", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "CC/SL deactivation by driver action"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2079"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2079"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CRUISE_CTRL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "207A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "207A"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_DUR_RESUME_BUTTON", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Duration of resume button press"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "207B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "207B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_DUR_BUTTON_PRESS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Duration of + button press"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "207C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "207C"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_DUR_BUTTON_PRESS_7E0", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Duration of - button press"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "207D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "207D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_DUR_SUSPEND_BUTTON", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Duration of suspend button press"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "207E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "207E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_NUM_ABNORMAL_CC_SL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Number of abnormal cc/sl transitions"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2090"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2090"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_IMPACT_DETECTED", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Impact detected"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2092"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2092"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_AC_AUTHORIZATION", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning authorization"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2098"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2098"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_RPM_REQUIRED_AIR_CON", "path": "Movement", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "rpm" }, "name": "Engine speed required by air con"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2099"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2099"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ALT_LOAD", "path": "Electrical", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Alternator load"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "209A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "209A"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_IDLE_ADAPT_CORR", "path": "Engine", "fmt": { "len": 16, "max": -0.0313, "min": -1024, "div": 32, "add": -1024, "sign": true, "unit": "newtonMeters" }, "name": "Idle adaptive correction"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "20C8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "20C8"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_LPG_P_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Liquefied petroleum gas pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "20DC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "20DC"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_SWIRL_FLAP", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "With swirl flap"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "20DD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "20DD"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_OIL_VAPOUR_HEATER", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil vapour heater"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "210E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "210E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ENGINE_ROT_COUNT", "path": "Engine", "fmt": { "len": 32, "max": 4294.9672, "div": 1000000, "unit": "scalar" }, "name": "Engine rotation count"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2147"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2147"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FLYWHEEL_TGT", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Flywheel, target programming"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2156"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2156"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_TORQUEMETER_PROG", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Torquemeter value, programmed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "215B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "215B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FLYWHEEL_TGT_PROG", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Flywheel target programming"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "215D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "215D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_TORQUEMETER_ADAPT_CORR", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "add": -32768, "unit": "scalar" }, "name": "Torquemeter correction, adaptive"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2161"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2161"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_TDC_SNS_SIG", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Top dead center sensor signal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2162"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2162"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CRANK_SYNC_LOSS_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Crankshaft sync loss counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2168"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2168"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_NUM_STARTING_4", "path": "Engine", "fmt": { "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Number of starting 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2169"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2169"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_NUM_STARTING_3", "path": "Engine", "fmt": { "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Number of starting 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "216A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "216A"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_NUM_STARTING_2", "path": "Engine", "fmt": { "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Number of starting 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "216B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "216B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_NUM_STARTING_1", "path": "Engine", "fmt": { "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Number of starting 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2170"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2170"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CHANGE_VSS_UNIT", "path": "Movement", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "scalar" }, "name": "Change of vehicle speed unit"},
     {"id": "SANDERO_AUTO_EMERGENCY",  "path": "Engine",   "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "scalar" }, "name": "Auto emergency braking system request"},
     {"id": "SANDERO_STOP_WARN_LIGHT", "path": "Lights",   "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon"  }, "name": "Stop warning light"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2175"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2175"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ACC_FRAME_RECEPTION", "path": "Engine", "fmt": {"bix": 5, "len": 3, "max": 7, "unit": "scalar" }, "name": "Adaptive cruise control frame reception status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2184"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2184"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MAX_PERMISSIBLE_SPD", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Maximum permissible speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "218D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "218D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_HEAT_RESISTOR_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Heating resistors active count"}
   ]},
@@ -789,75 +789,75 @@
   "signals": [
     {"id": "SANDERO_IMAGE_ENG_TQ", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Image of engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "219B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "219B"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MAX_VSS", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Maximum vehicle speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "21A3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "21A3"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FLYWHEEL_TGT_PROGRAMMING", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Flywheel, target programming"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2222"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2222"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CLU_CONTACT", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch contact multiplex signal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2225"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2225"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_VSS_MULTIPLEXED", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle speed multiplexed information"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2226"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2226"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_VSS_DISPLAYED", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle speed displayed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2229"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2229"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_AC_COMMAND", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning command"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "222A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "222A"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_REFRIG_P", "path": "Climate", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "bars" }, "name": "Refrigerant pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "222B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "222B"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MANUAL_OR_ASSISTED", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Manual or assisted parking brake"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "222C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "222C"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CLU_START_TRAVEL", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch start of travel wiring switch"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "222D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "222D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CLUTCH_PEDAL_SW", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch pedal switch"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "222E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "222E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MANUAL_GEARBOX_LEVER", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Manual gearbox lever in neutral"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "222F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "222F"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CC_SL_CONNECTION_AUTHORISATION", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "CC/SL connection authorisation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2241"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2241"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_IN_CAM_DEPHASER_SOL_PROG", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Inlet camshaft dephaser solenoid programming"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2246"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2246"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_IDLE_REG_INT_CORR", "path": "Engine", "fmt": { "len": 16, "max": -0.0313, "min": -1024, "div": 32, "add": -1024, "sign": true, "unit": "newtonMeters" }, "name": "Idle regulation integral correction"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "224D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "224D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_EXH_CAM_SHIFTER_SV", "path": "Transmission", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "percent" }, "name": "Exhaust camshaft shifter sv control OCR"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "224E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "224E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_EXH_CAM_SHIFTER", "path": "Transmission", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "scalar" }, "name": "Exhaust camshaft shifter set point"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "224F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "224F"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_EXH_CAM_PHASING", "path": "Engine", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "scalar" }, "name": "Exhaust camshaft phasing"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2255"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2255"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CAM_SHIFTER_MEAS_POS", "path": "Transmission", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "percent" }, "name": "Camshaft shifter measured position"}
   ]},
@@ -865,7 +865,7 @@
   "signals": [
     {"id": "SANDERO_WATER_PMP_COMMAND", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Water pump command"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "22AA"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "22AA"}, "freq": 3600, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_STARTER_WEAR_CNT", "path": "Engine", "fmt": { "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Starter wear counter"}
   ]},
@@ -873,27 +873,27 @@
   "signals": [
     {"id": "SANDERO_HIGH_P_PMP_CNT", "path": "Engine", "fmt": { "len": 24, "max": 16777215, "unit": "scalar" }, "name": "High pressure pump counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "22B4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "22B4"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_END_CLU_SWITCH_TRAVEL", "path": "Transmission", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "End of clutch switch travel circuit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "22B5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "22B5"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_END_CLU_SWITCH", "path": "Transmission", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "End of clutch switch travel circuit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "22B6"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "22B6"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CLU_SWITCH", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch switch information"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "22B7"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "22B7"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CLU_END_TRAVEL", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch end of travel wiring switch"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2401"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2401"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Boost pressure", "suggestedMetric": "absoluteBoostPressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2402"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2402"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_BOOST_P_REFERENCE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Boost pressure reference value"}
   ]},
@@ -901,7 +901,7 @@
   "signals": [
     {"id": "SANDERO_THROTTLE_BODY", "path": "Engine", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "percent" }, "name": "Throttle body opening"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2406"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2406"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_INLET_FLAP_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "add": -327.68, "unit": "percent" }, "name": "Inlet flap control"}
   ]},
@@ -909,11 +909,11 @@
   "signals": [
     {"id": "SANDERO_EGR_VLV_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "add": -327.68, "unit": "percent" }, "name": "Exhaust gas recirculation valve duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "240B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "240B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MANIFOLD_P", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Manifold pressure", "suggestedMetric": "absoluteBoostPressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "240D"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "240D"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_INLET_AIR_T_7E0", "path": "Engine", "fmt": { "len": 16, "max": 12826, "div": 10, "add": 6273, "unit": "celsius" }, "name": "Inlet air temperature"}
   ]},
@@ -921,23 +921,23 @@
   "signals": [
     {"id": "SANDERO_MAF", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "unknown" }, "name": "Mass air flow"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2414"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2414"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_THROTTLE_POS_REF", "path": "Engine", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "percent" }, "name": "Throttle position, reference"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2415"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2415"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_THROTTLE_POS_1", "path": "Engine", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "percent" }, "name": "Throttle position, track 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2416"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2416"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_THROTTLE_POS_2", "path": "Engine", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "percent" }, "name": "Throttle position, track 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2418"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2418"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_THROTTLE_V1", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Throttle voltage, track 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2419"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2419"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_THROTTLE_V2", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Throttle voltage, track 2"}
   ]},
@@ -945,11 +945,11 @@
   "signals": [
     {"id": "SANDERO_MOTORISED_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "add": -327.68, "unit": "percent" }, "name": "Motorised throttle OCR"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2422"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2422"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_AIR_FLOW", "path": "Engine", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "unknown" }, "name": "Air flow"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "242F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "242F"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_THROTTLE_POS", "path": "Engine", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "percent" }, "name": "Throttle position, measured"}
   ]},
@@ -957,79 +957,79 @@
   "signals": [
     {"id": "SANDERO_EXH_GAS_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Exhaust gas temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "243F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "243F"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_INLET_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.5, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Inlet air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2449"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2449"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_O2_UP_V", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "millivolts" }, "name": "O2 sensor voltage, upstream"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "244A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "244A"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_O2_DN_V", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "millivolts" }, "name": "O2 sensor voltage, downstream"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "244B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "244B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_O2_UP_HEAT_R", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "ohms" }, "name": "O2 sensor heating resistance, upstream"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "244C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "244C"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_O2_DN_HEAT_R", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "ohms" }, "name": "O2 sensor heating resistance, downstream"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "244D"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "244D"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_DAMPER_VLV_UP_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Damper valve upstream temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2457"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2457"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_THROTTLE_LOW_STOP_PROG", "path": "Engine", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "percent" }, "name": "Throttle low stop, programmed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "245D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "245D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_THROTTLE_LIMITS_PROG", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Throttle limits programming"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "245E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "245E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ENG_LOAD", "path": "Engine", "fmt": { "len": 16, "max": 3.99, "div": 16384, "unit": "scalar" }, "name": "Engine load"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2493"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2493"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_TEST_RESULT_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Test result 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2494"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2494"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_TEST_RESULT_2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Test result 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "24C1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "24C1"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_DN_OXYGEN_SENS_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Downstream oxygen sensor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "24C4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "24C4"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_O2_UP_HEAT_DELAY", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "O2 sensor heating delay, upstream"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "24C9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "24C9"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_THROTTLE_SAFE_MODE_PROG", "path": "Engine", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "percent" }, "name": "Throttle safe mode value, programmed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "24D7"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "24D7"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MANIFOLD_P_LIN", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Manifold pressure, linearised"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "24E1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "24E1"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_GROSS_INLET_MANIFOLD_P", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Gross inlet manifold pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "24E5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "24E5"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_BOOST_P_WASTEGATE", "path": "Engine", "fmt": { "len": 8, "max": 85, "div": 3, "unit": "percent" }, "name": "Boost pressure wastegate RCO"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2506"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2506"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_UP_O2_SENS_HEATING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Upstream o2 sensor heating"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2507"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2507"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_DN_OXYGEN_SENS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Downstream oxygen sensor heating"}
   ]},
@@ -1037,27 +1037,27 @@
   "signals": [
     {"id": "SANDERO_DRAIN_CUT_VLV", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "unknown" }, "name": "Drain cut valve diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "251D"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "251D"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_INTERNAL_T_SENS", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Internal temperature sensor circuit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "251E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "251E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_PROPORTIONAL", "path": "Engine", "fmt": { "len": 16, "max": 1.99, "mul": 0.0000305176, "unit": "scalar" }, "name": "Proportional richness sensor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2533"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2533"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_GROSS_INLET_MANIFOLD_P_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Gross inlet manifold pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2536"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2536"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_TRANSMITTED_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "percent" }, "name": "Transmitted throttle position value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2573"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2573"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_DOUBLE_LOOP_ADAPTIVE", "path": "Engine", "fmt": { "len": 16, "max": 0.333, "min": -0.333, "div": 98304, "add": -0.333333, "unit": "scalar" }, "name": "Double loop adaptive"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "25D6"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "25D6"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_COOLING_REQ_INJ", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling request by injection"}
   ]},
@@ -1065,7 +1065,7 @@
   "signals": [
     {"id": "SANDERO_FUEL_RAIL_P", "path": "Fuel", "fmt": { "len": 16, "max": 451847, "mul": 6.8947572932, "unit": "kilopascal" }, "name": "Fuel rail pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2804"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2804"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_INJ_DUR", "path": "Engine", "fmt": { "len": 24, "max": 67108860, "mul": 4, "unit": "milliseconds" }, "name": "Injection duration"}
   ]},
@@ -1073,163 +1073,163 @@
   "signals": [
     {"id": "SANDERO_INJ_QTY", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "unknown" }, "name": "Injection qty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2807"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2807"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_IGN_TIMING_ADV", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "degrees" }, "name": "Ignition timing advance"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "281B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "281B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_LOW_FUEL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel level, low"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "281C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "281C"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FUEL_PUMP_CTRL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel pump control circuit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2822"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2822"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CANISTER_BLEED_SOL_RCO", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Canister bleed solenoid valve RCO"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2841"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2841"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CYL1_MISFIRE_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 1 misfire counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2842"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2842"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CYL2_MISFIRE_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 2 misfire counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2843"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2843"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CYL3_MISFIRE_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 3 misfire counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2844"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2844"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CYL4_MISFIRE_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 4 misfire counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2847"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2847"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CYL1_KNOCK", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 1 knock"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2848"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2848"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CYL2_KNOCK", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 2 knock"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2849"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2849"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CYL3_KNOCK", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 3 knock"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "284A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "284A"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CYL4_KNOCK", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 4 knock"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "284D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "284D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_KNOCK_AVG", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock signal, average"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "284E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "284E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_RICHNESS_CORR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Richness correction"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2850"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2850"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_RICHNESS_CORR_OP", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "percent" }, "name": "Richness correction, operating"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2851"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2851"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_RICHNESS_REG_GAIN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Richness regulation gain"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2852"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2852"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_RICHNESS_REG_OFFSET", "path": "Engine", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "milliseconds" }, "name": "Richness regulation offset"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "285C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "285C"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FUEL_FLOW_CORR_CYL_3", "path": "Fuel", "fmt": { "len": 8, "max": 765, "mul": 3, "unit": "percent" }, "name": "Fuel flow correction for cylinder no. 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2862"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2862"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FUEL_PMP_PRIMING", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel pump priming complete"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2871"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2871"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_CONTROLLED_CLT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 0.3921569, "unit": "percent" }, "name": "Controlled coolant thermostat OCR"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2872"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2872"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_RICHNESS_CORR_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Richness correction value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2873"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2873"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_RICHNESS_ADAPT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Richness, adaptive operating"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2874"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2874"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MISFIRE_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter, total"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "287B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "287B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ALCOHOL_FUEL", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 20, "div": 13107, "unit": "percent" }, "name": "Alcohol fuel adaptive correction"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "287C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "287C"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_RICHNESS_REGULATION", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Richness regulation programming"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2881"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2881"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FLI_EST", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Fuel tank level, estimated", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2887"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2887"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_INJ_FUEL_PMP_PWM", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "percent" }, "name": "Injection fuel pump PWM control"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "288D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "288D"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MIN_ADAPTIVE", "path": "Engine", "fmt": { "len": 16, "max": 32895, "min": -32640, "add": -32640, "unit": "scalar" }, "name": "Minimum adaptive richness value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "288E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "288E"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MAX_ADAPTIVE", "path": "Engine", "fmt": { "len": 16, "max": 32895, "min": -32640, "add": -32640, "unit": "scalar" }, "name": "Maximum adaptive richness value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2890"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2890"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MASTERVAC_P_SWITCH", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Mastervac pressure switch signal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2891"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2891"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MASTERVAC_P", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Mastervac pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2892"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2892"}, "freq": 3600, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_VACUUM_PMP_AGEING", "path": "Engine", "fmt": { "len": 16, "max": 6553500, "mul": 100, "unit": "seconds" }, "name": "Vacuum pump ageing counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2894"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2894"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MASTERVAC_P_7E0", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "Mastervac pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "28AB"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "28AB"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_TRANSITION_PETROL", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Transition from petrol mode to LPG mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "28AD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "28AD"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_TRANSITION_LPG_MODE", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Transition from LPG mode to petrol mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "28AE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "28AE"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_GAS_MODE", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Gas mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "28B1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "28B1"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_GAS_T", "path": "Fuel", "fmt": { "len": 16, "max": 6280.5, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "28C5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "28C5"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_LAMBDA", "path": "Engine", "fmt": { "len": 16, "max": 1.99, "div": 32768, "unit": "scalar" }, "name": "Lambda value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "28C6"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "28C6"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_FUEL_FLOW", "path": "Fuel", "fmt": { "len": 16, "max": 5368, "mul": 256, "div": 3125, "unit": "unknown" }, "name": "Fuel flow"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "28DD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "28DD"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_ALTERNATOR_SETPOINT_V", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "Alternator set point voltage"}
   ]},
@@ -1237,15 +1237,15 @@
   "signals": [
     {"id": "SANDERO_FUEL_TANK_T", "path": "Fuel", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Fuel tank temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "2958"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "2958"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_BAT_CHG", "path": "Battery", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "percent" }, "name": "Battery charge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2C03"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2C03"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_GEARBOX_RATIO_TGT", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gearbox ratio, target"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2C04"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2C04"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_GEARBOX_RATIO", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gearbox ratio"}
   ]},
@@ -1253,7 +1253,7 @@
   "signals": [
     {"id": "SANDERO_RICHNESS_REGULATION_1", "path": "Engine", "fmt": { "len": 16, "max": 0.666, "div": 98304, "add": 0.000007, "unit": "scalar" }, "name": "Richness regulation factor. bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "F40B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "F40B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_INLET_P", "path": "Engine", "fmt": { "len": 8, "max": 2550, "mul": 10, "unit": "unknown" }, "name": "Inlet pressure"}
   ]},
@@ -1269,11 +1269,11 @@
   "signals": [
     {"id": "SANDERO_EVAPORATION_SYSTEM_P_7E0", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Evaporation system pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "FD81"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "FD81"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_MANIFOLD_P_SNS_V", "path": "Engine", "fmt": { "len": 16, "max": 15.9997, "div": 4096, "unit": "volts" }, "name": "Manifold pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dbg": true, "cmd": {"22": "FD82"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "FD82"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_BOOST_P_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 9.99, "mul": 0.000152588, "unit": "volts" }, "name": "Boost pressure sensor voltage"}
   ]},
@@ -1281,11 +1281,11 @@
   "signals": [
     {"id": "SANDERO_AIR_INLET_T_SNS_V", "path": "Engine", "fmt": { "len": 16, "max": 15.9997, "div": 4096, "unit": "volts" }, "name": "Air inlet temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "FD84"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "FD84"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_AIR_T_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 9.99, "div": 6553.595, "unit": "volts" }, "name": "Air temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "FD8B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "FD8B"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "SANDERO_COOLANT_T_SNS_V", "path": "Engine", "fmt": { "len": 16, "max": 15.9997, "div": 4096, "unit": "volts" }, "name": "Coolant temperature sensor voltage"}
   ]},

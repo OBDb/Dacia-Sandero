@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22206E
+test_cases:
+- expected_values:
+    SANDERO_BRAKE_SWITCH: 1
+  response: 7E80462206E01

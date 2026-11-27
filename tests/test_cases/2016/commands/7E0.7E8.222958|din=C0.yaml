@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222958|din=C0
+test_cases:
+- expected_values:
+    SANDERO_BAT_CHG: 70
+  response: 7E8046229588C

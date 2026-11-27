@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222890|din=C0
+test_cases:
+- expected_values:
+    SANDERO_MASTERVAC_P_SWITCH: 0
+  response: '7E80462289000'

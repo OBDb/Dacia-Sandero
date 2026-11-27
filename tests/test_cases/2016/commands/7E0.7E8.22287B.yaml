@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22287B
+test_cases:
+- expected_values:
+    SANDERO_ALCOHOL_FUEL: 59.00053
+  response: 7E80562287B970A

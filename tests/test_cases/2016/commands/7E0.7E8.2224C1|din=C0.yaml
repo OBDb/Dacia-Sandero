@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2224C1|din=C0
+test_cases:
+- expected_values:
+    SANDERO_DN_OXYGEN_SENS_7E0: 0
+  response: 7E8056224C10000

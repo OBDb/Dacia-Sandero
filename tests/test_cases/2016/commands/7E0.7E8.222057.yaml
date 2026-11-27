@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222057
+test_cases:
+- expected_values:
+    SANDERO_ALT_PWR: 280
+  response: 7E805622057001C
+- expected_values:
+    SANDERO_ALT_PWR: 1220
+  response: 7E805622057007A
+- expected_values:
+    SANDERO_ALT_PWR: 1290
+  response: '7E8056220570081'
+- expected_values:
+    SANDERO_ALT_PWR: 1300
+  response: '7E8056220570082'
+- expected_values:
+    SANDERO_ALT_PWR: 1470
+  response: '7E8056220570093'
+- expected_values:
+    SANDERO_ALT_PWR: 1890
+  response: 7E80562205700BD
+- expected_values:
+    SANDERO_ALT_PWR: 2300
+  response: 7E80562205700E6

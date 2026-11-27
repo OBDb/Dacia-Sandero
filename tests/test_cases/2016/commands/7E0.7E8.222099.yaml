@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222099
+test_cases:
+- expected_values:
+    SANDERO_ALT_LOAD: 14.90196
+  response: '7E80462209926'
+- expected_values:
+    SANDERO_ALT_LOAD: 34.90196
+  response: '7E80462209959'
+- expected_values:
+    SANDERO_ALT_LOAD: 36.07843
+  response: 7E8046220995C
+- expected_values:
+    SANDERO_ALT_LOAD: 37.64706
+  response: '7E80462209960'
+- expected_values:
+    SANDERO_ALT_LOAD: 46.66667
+  response: '7E80462209977'
+- expected_values:
+    SANDERO_ALT_LOAD: 50.58824
+  response: '7E80462209981'
+- expected_values:
+    SANDERO_ALT_LOAD: 54.5098
+  response: 7E8046220998B
