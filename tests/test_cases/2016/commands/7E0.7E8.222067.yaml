@@ -13,6 +13,9 @@ test_cases:
     SANDERO_GROSS_ENG_TQ: 65.46875
   response: 7E805622067082F
 - expected_values:
+    SANDERO_GROSS_ENG_TQ: 65.5
+  response: '7E8056220670830'
+- expected_values:
     SANDERO_GROSS_ENG_TQ: 93.65625
   response: 7E8056220670BB5
 - expected_values:

@@ -7,5 +7,8 @@ test_cases:
     SANDERO_IN_CAM_DEPHASER_SETPT: 0.04
   response: '7E8056220300002'
 - expected_values:
+    SANDERO_IN_CAM_DEPHASER_SETPT: 0.58
+  response: 7E805622030001D
+- expected_values:
     SANDERO_IN_CAM_DEPHASER_SETPT: 24.66
   response: 7E80562203004D1

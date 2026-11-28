@@ -4,5 +4,11 @@ test_cases:
     SANDERO_MISFIRE_CNT: 0
   response: '7E8056228740000'
 - expected_values:
+    SANDERO_MISFIRE_CNT: 1
+  response: '7E8056228740001'
+- expected_values:
     SANDERO_MISFIRE_CNT: 2
   response: '7E8056228740002'
+- expected_values:
+    SANDERO_MISFIRE_CNT: 3
+  response: '7E8056228740003'

@@ -8,6 +8,9 @@ test_cases:
   response: '7E8056222468001'
 - expected_values:
     SANDERO_IDLE_REG_INT_CORR: -1024
+  response: '7E8056222468029'
+- expected_values:
+    SANDERO_IDLE_REG_INT_CORR: -1024
   response: '7E8056222468036'
 - expected_values:
     SANDERO_IDLE_REG_INT_CORR: -1024

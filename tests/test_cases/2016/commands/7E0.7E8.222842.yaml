@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SANDERO_CYL2_MISFIRE_CNT: 0
   response: '7E8056228420000'
+- expected_values:
+    SANDERO_CYL2_MISFIRE_CNT: 1
+  response: '7E8056228420001'

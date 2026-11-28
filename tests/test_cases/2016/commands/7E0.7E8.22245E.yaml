@@ -1,32 +1,11 @@
 command_id: 7E0.7E8.22245E
 test_cases:
 - expected_values:
-    SANDERO_ENG_LOAD: 0.09503
-  response: 7E80562245E0615
-- expected_values:
-    SANDERO_ENG_LOAD: 0.26685
-  response: 7E80562245E1114
-- expected_values:
-    SANDERO_ENG_LOAD: 0.2757
-  response: 7E80562245E11A5
+    SANDERO_ENG_LOAD: 0.09424
+  response: 7E80562245E0608
 - expected_values:
     SANDERO_ENG_LOAD: 0.3573
   response: 7E80562245E16DE
 - expected_values:
-    SANDERO_ENG_LOAD: 0.41168
-  response: 7E80562245E1A59
-- expected_values:
     SANDERO_ENG_LOAD: 0.59814
   response: 7E80562245E2648
-- expected_values:
-    SANDERO_ENG_LOAD: 0.59875
-  response: 7E80562245E2652
-- expected_values:
-    SANDERO_ENG_LOAD: 0.59894
-  response: 7E80562245E2655
-- expected_values:
-    SANDERO_ENG_LOAD: 0.59979
-  response: 7E80562245E2663
-- expected_values:
-    SANDERO_ENG_LOAD: 0.60034
-  response: 7E80562245E266C

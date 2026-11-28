@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22243F
 test_cases:
 - expected_values:
+    SANDERO_INLET_AIR_T: 48.7
+  response: 7E80562243F0C91
+- expected_values:
     SANDERO_INLET_AIR_T: 52.5
   response: 7E80562243F0CB7
 - expected_values:

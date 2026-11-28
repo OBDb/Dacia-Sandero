@@ -19,5 +19,8 @@ test_cases:
     SANDERO_ENG_TQ_REFERENCE: 49.1875
   response: '7E8056220690626'
 - expected_values:
+    SANDERO_ENG_TQ_REFERENCE: 50.25
+  response: '7E8056220690648'
+- expected_values:
     SANDERO_ENG_TQ_REFERENCE: 62.65625
   response: 7E80562206907D5

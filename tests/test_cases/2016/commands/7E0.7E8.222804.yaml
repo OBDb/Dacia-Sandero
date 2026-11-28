@@ -13,6 +13,9 @@ test_cases:
     SANDERO_INJ_DUR: 3128
   response: 7E80662280400030E
 - expected_values:
+    SANDERO_INJ_DUR: 3340
+  response: '7E806622804000343'
+- expected_values:
     SANDERO_INJ_DUR: 3408
   response: '7E806622804000354'
 - expected_values:

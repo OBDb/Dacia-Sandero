@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SANDERO_TOT_DIST_TRAVELLED: 48007
   response: 7E80662200600BB87
+- expected_values:
+    SANDERO_TOT_DIST_TRAVELLED: 48009
+  response: 7E80662200600BB89

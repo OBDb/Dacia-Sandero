@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.222415
 test_cases:
 - expected_values:
+    SANDERO_THROTTLE_POS_1: 13.1
+  response: '7E8056224150106'
+- expected_values:
     SANDERO_THROTTLE_POS_1: 13.8
   response: '7E8056224150114'
 - expected_values:

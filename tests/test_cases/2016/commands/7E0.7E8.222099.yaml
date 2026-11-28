@@ -4,6 +4,12 @@ test_cases:
     SANDERO_ALT_LOAD: 14.90196
   response: '7E80462209926'
 - expected_values:
+    SANDERO_ALT_LOAD: 30.58824
+  response: 7E8046220994E
+- expected_values:
+    SANDERO_ALT_LOAD: 34.5098
+  response: '7E80462209958'
+- expected_values:
     SANDERO_ALT_LOAD: 34.90196
   response: '7E80462209959'
 - expected_values:

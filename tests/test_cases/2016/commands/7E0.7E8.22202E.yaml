@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     SANDERO_ACCEL_POS: 0.25875
   response: 7E80562202E00CF
+- expected_values:
+    SANDERO_ACCEL_POS: 0.2875
+  response: 7E80562202E00E6

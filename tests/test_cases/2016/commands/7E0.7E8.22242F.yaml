@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     SANDERO_THROTTLE_POS: 21.6
   response: 7E80562242F01B0
+- expected_values:
+    SANDERO_THROTTLE_POS: 22.1
+  response: 7E80562242F01BA

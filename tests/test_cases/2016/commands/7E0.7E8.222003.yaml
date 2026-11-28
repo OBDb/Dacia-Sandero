@@ -13,5 +13,8 @@ test_cases:
     SANDERO_VSS: 31.17
   response: 7E8056220030C2D
 - expected_values:
+    SANDERO_VSS: 33.6
+  response: 7E8056220030D20
+- expected_values:
     SANDERO_VSS: 33.98
   response: 7E8056220030D46

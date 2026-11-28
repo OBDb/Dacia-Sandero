@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SANDERO_ATMOSPHERIC_P: 927
   response: 7E805622009039F
+- expected_values:
+    SANDERO_ATMOSPHERIC_P: 928
+  response: 7E80562200903A0

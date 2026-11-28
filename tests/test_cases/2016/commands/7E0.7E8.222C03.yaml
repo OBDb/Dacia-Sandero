@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     SANDERO_GEARBOX_RATIO_TGT: 4
   response: 7E804622C0304
+- expected_values:
+    SANDERO_GEARBOX_RATIO_TGT: 5
+  response: 7E804622C0305

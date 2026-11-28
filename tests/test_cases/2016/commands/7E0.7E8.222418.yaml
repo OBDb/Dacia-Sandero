@@ -13,6 +13,9 @@ test_cases:
     SANDERO_THROTTLE_V1: 0.767
   response: 7E80562241802FF
 - expected_values:
+    SANDERO_THROTTLE_V1: 0.835
+  response: '7E8056224180343'
+- expected_values:
     SANDERO_THROTTLE_V1: 0.864
   response: '7E8056224180360'
 - expected_values:

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SANDERO_IDLE_ADAPT_CORR: -1024
   response: 7E80562209A8006
+- expected_values:
+    SANDERO_IDLE_ADAPT_CORR: -1024
+  response: 7E80562209A800F
