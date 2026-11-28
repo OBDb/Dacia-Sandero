@@ -10,6 +10,9 @@ test_cases:
     SANDERO_KNOCK_AVG: 32
   response: 7E80462284D20
 - expected_values:
+    SANDERO_KNOCK_AVG: 43
+  response: 7E80462284D2B
+- expected_values:
     SANDERO_KNOCK_AVG: 49
   response: 7E80462284D31
 - expected_values:

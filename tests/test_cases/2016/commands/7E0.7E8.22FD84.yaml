@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SANDERO_AIR_T_SENS_V: 0.9375
   response: 7E80562FD841800
+- expected_values:
+    SANDERO_AIR_T_SENS_V: 1.03027
+  response: 7E80562FD841A60

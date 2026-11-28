@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     SANDERO_COOLANT_T_SNS_V: 1.21094
   response: 7E80562FD8B1360
+- expected_values:
+    SANDERO_COOLANT_T_SNS_V: 1.24219
+  response: 7E80562FD8B13E0

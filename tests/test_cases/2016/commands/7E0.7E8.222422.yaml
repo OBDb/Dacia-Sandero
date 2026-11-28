@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     SANDERO_AIR_FLOW: 27.05
   response: 7E805622422021D
+- expected_values:
+    SANDERO_AIR_FLOW: 38.9
+  response: 7E805622422030A
+- expected_values:
+    SANDERO_AIR_FLOW: 51.6
+  response: '7E8056224220408'

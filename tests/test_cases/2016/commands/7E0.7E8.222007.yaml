@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.222007
 test_cases:
 - expected_values:
+    SANDERO_EST_OIL_T: 72.5
+  response: 7E8056220070D7F
+- expected_values:
     SANDERO_EST_OIL_T: 75.4
   response: 7E8056220070D9C
 - expected_values:

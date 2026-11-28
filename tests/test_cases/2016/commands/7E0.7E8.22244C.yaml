@@ -4,6 +4,9 @@ test_cases:
     SANDERO_O2_DN_HEAT_R: 0
   response: 7E80462244C00
 - expected_values:
+    SANDERO_O2_DN_HEAT_R: 30.98039
+  response: 7E80462244C4F
+- expected_values:
     SANDERO_O2_DN_HEAT_R: 31.37255
   response: 7E80462244C50
 - expected_values:

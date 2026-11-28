@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22FD81
 test_cases:
 - expected_values:
+    SANDERO_MANIFOLD_P_SNS_V: 0.69531
+  response: 7E80562FD810B20
+- expected_values:
     SANDERO_MANIFOLD_P_SNS_V: 0.71094
   response: 7E80562FD810B60
 - expected_values:

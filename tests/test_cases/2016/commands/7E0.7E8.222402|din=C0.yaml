@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SANDERO_BOOST_P_REFERENCE: 927
   response: 7E805622402039F
+- expected_values:
+    SANDERO_BOOST_P_REFERENCE: 928
+  response: 7E80562240203A0

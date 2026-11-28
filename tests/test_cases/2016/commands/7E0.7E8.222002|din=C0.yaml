@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     SANDERO_RPM: 853.75
   response: 7E8056220020D57
+- expected_values:
+    SANDERO_RPM: 1566
+  response: '7E8056220021878'

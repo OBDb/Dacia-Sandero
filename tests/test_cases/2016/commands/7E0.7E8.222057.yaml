@@ -13,6 +13,9 @@ test_cases:
     SANDERO_ALT_PWR: 1300
   response: '7E8056220570082'
 - expected_values:
+    SANDERO_ALT_PWR: 1350
+  response: '7E8056220570087'
+- expected_values:
     SANDERO_ALT_PWR: 1470
   response: '7E8056220570093'
 - expected_values:

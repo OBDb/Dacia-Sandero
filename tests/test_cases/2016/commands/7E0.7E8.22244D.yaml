@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22244D
 test_cases:
 - expected_values:
+    SANDERO_DAMPER_VLV_UP_T: 48.7
+  response: 7E80562244D0C91
+- expected_values:
     SANDERO_DAMPER_VLV_UP_T: 50.2
   response: 7E80562244D0CA0
 - expected_values:

@@ -7,6 +7,9 @@ test_cases:
     SANDERO_O2_DN_V: 122
   response: 7E80562244A007A
 - expected_values:
+    SANDERO_O2_DN_V: 127
+  response: 7E80562244A007F
+- expected_values:
     SANDERO_O2_DN_V: 142
   response: 7E80562244A008E
 - expected_values:

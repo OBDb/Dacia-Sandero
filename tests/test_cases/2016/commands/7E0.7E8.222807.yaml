@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     SANDERO_IGN_TIMING_ADV: 137
   response: '7E80462280789'
+- expected_values:
+    SANDERO_IGN_TIMING_ADV: 145
+  response: '7E80462280791'

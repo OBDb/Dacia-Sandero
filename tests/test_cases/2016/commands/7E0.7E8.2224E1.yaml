@@ -4,6 +4,9 @@ test_cases:
     SANDERO_GROSS_INLET_MANIFOLD_P: 197
   response: 7E8056224E100C5
 - expected_values:
+    SANDERO_GROSS_INLET_MANIFOLD_P: 220
+  response: 7E8056224E100DC
+- expected_values:
     SANDERO_GROSS_INLET_MANIFOLD_P: 456
   response: 7E8056224E101C8
 - expected_values:

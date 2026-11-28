@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     SANDERO_ECU_SUPPLY_V: 13.71
   response: 7E805622005055B
+- expected_values:
+    SANDERO_ECU_SUPPLY_V: 13.81
+  response: '7E8056220050565'

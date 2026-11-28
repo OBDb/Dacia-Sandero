@@ -19,5 +19,8 @@ test_cases:
     SANDERO_MANIFOLD_P_LIN: 502
   response: 7E8056224D701F6
 - expected_values:
+    SANDERO_MANIFOLD_P_LIN: 734
+  response: 7E8056224D702DE
+- expected_values:
     SANDERO_MANIFOLD_P_LIN: 927
   response: 7E8056224D7039F

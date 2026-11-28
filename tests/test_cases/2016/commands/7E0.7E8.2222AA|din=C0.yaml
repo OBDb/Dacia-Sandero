@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SANDERO_STARTER_WEAR_CNT: 16466
   response: 7E8066222AA004052
+- expected_values:
+    SANDERO_STARTER_WEAR_CNT: 16467
+  response: 7E8066222AA004053
